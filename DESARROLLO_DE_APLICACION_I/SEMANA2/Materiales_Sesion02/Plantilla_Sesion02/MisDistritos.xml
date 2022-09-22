@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Distritos>
+    <cod_dis>D01</cod_dis>
+    <nom_dis>ATE</nom_dis>
+  </Distritos>
+<Distritos>
+    <cod_dis>D02</cod_dis>
+    <nom_dis>Ancon</nom_dis>
+  </Distritos>
+<Distritos>
+    <cod_dis>D03</cod_dis>
+    <nom_dis>Barranco</nom_dis>
+  </Distritos>
+<Distritos>
+    <cod_dis>D04</cod_dis>
+    <nom_dis>Los Olivos</nom_dis>
+  </Distritos>
+<Distritos>
+    <cod_dis>D05</cod_dis>
+    <nom_dis>Surco</nom_dis>
+  </Distritos>
+<Distritos>
+    <cod_dis>D06</cod_dis>
+    <nom_dis>Surquillo</nom_dis>
+</Distritos>
+<Distritos>
+    <cod_dis>D07</cod_dis>
+    <nom_dis>San Juan de Miraflores</nom_dis>
+</Distritos>
+<Distritos>
+    <cod_dis>D08</cod_dis>
+    <nom_dis>San Juan de Lurigancho</nom_dis>
+</Distritos>
+ 
+</NewDataSet>

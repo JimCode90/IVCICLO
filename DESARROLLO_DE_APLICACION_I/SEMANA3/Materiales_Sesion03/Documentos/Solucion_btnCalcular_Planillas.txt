@@ -1,0 +1,56 @@
+    try
+            {
+                // Guardamos las horas dictadas y de asesoria
+                Int16 intHorasDictadas = Convert.ToInt16(txtHorasDictadas.Text);
+                Int16 intHorasAsesoria = Convert.ToInt16 (txtHorasAsesoria.Text);   
+
+                // Manejamos la tarifa horaria
+                // Validamos que se haya seleccionado una categoria correcta
+                if (cboCategorias.SelectedIndex == 0)
+                {
+                    throw new Exception("Por favor, seleccione una categoria");
+                }
+
+                // Evaluamos que categoria se selecciono
+                Single sngTarifa=0;
+                switch (cboCategorias.SelectedIndex)
+                {
+                    case 1:
+                        sngTarifa = 50;
+                        break;
+                    case 2:
+                        sngTarifa = 40;
+                        break;
+                    case 3:
+                        sngTarifa = 50;
+                        break;
+                }
+
+                // Se calcula el Pago por horas
+                Single sngPagoHoras = sngTarifa * (intHorasDictadas+ intHorasAsesoria );
+
+                // Se evalua si se aplica descuento de 5ta categoria
+                Single sngDescuento;
+                if (chkDescuento.Checked == true)
+                {
+                    sngDescuento = Convert.ToSingle(sngPagoHoras * 0.1);
+                }
+                else
+                {
+                    sngDescuento = 0;
+                }
+
+                // Se calcula el neto a pagar 
+                Single sngNeto = sngPagoHoras - sngDescuento;
+
+                // Se muestran los resultados...
+                lblTarifa.Text = sngTarifa.ToString("#0.00");
+                lblPagoHoras.Text = sngPagoHoras.ToString("#,##0.00");
+                lblDescuento.Text = sngDescuento.ToString("##0.00");
+                lblNeto.Text = sngNeto.ToString("##,##0.00");
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show ("Error: " +ex.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error) ;
+            }
