@@ -7,13 +7,22 @@
     <Compile Update="frmConsultaCliente.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmConsultaProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmDemoConexiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmEntornoDesconectado.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmExecuteReader.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmExecuteScalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmUMedida.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

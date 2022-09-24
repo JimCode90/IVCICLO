@@ -12,16 +12,16 @@ namespace ProyWinC_Sem04
 {
     public partial class frmConsultaCliente : Form
     {
-       
-        public frmConsultaCliente()
-        {
-            InitializeComponent();
-        }
         //Declaramos las instancias
         SqlConnection cnx = new SqlConnection("server=DESKTOP-3V9TI4J;Database=VentasLeon;Integrated Security=true");
         SqlCommand cmd = new SqlCommand();
         SqlDataReader dtr;
 
+        public frmConsultaCliente()
+        {
+            InitializeComponent();
+        }
+    
         private void txtcod_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Codifique

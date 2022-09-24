@@ -27,3 +27,6 @@ D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA4\ProyWinC_Sem04\ProyWinC_Sem04
 D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA4\ProyWinC_Sem04\ProyWinC_Sem04\obj\Debug\net6.0-windows\ProyWinC_Sem04.frmExecuteScalar.resources
 D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA4\ProyWinC_Sem04\ProyWinC_Sem04\obj\Debug\net6.0-windows\ProyWinC_Sem04.frmExecuteReader.resources
 D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA4\ProyWinC_Sem04\ProyWinC_Sem04\obj\Debug\net6.0-windows\ProyWinC_Sem04.frmConsultaCliente.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA4\ProyWinC_Sem04\ProyWinC_Sem04\obj\Debug\net6.0-windows\ProyWinC_Sem04.frmConsultaProveedor.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA4\ProyWinC_Sem04\ProyWinC_Sem04\obj\Debug\net6.0-windows\ProyWinC_Sem04.frmEntornoDesconectado.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA4\ProyWinC_Sem04\ProyWinC_Sem04\obj\Debug\net6.0-windows\ProyWinC_Sem04.frmUMedida.resources
