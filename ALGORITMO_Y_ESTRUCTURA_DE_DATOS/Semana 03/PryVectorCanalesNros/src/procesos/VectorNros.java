@@ -92,10 +92,17 @@ public class VectorNros
     public void invertirPosiciones()
     {
         // implementar
+        
+        
+        
     }
     
     public void insertar(double dato, int pos)
     {
         // implementar
+        
+        
+        
+        
     }
 }

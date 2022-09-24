@@ -21,6 +21,7 @@ public class FrmPrincipal extends javax.swing.JFrame
     public void limpiar()
     {
         txtNro.setText("");
+        txtPosicion.setText("");
         txtNro.requestFocus();
     }
 
@@ -187,20 +188,32 @@ public class FrmPrincipal extends javax.swing.JFrame
 
     private void btnInsertarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInsertarActionPerformed
         // TODO add your handling code here:
+        int aux;
+        int pos;
+        aux = Integer.parseInt(txtNro.getText());
+        pos = Integer.parseInt(txtPosicion.getText());
+        vectorDeCanales.insertar(aux, pos);
+        limpiar();
     }//GEN-LAST:event_btnInsertarActionPerformed
 
     private void btnOrdenarAscendenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdenarAscendenteActionPerformed
         // TODO add your handling code here:
-
+           vectorDeCanales.ordenar();
+           JOptionPane.showMessageDialog(this, "Canales ordenados ascendentemente");
     }//GEN-LAST:event_btnOrdenarAscendenteActionPerformed
 
     private void btnOrdenarDescendenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnOrdenarDescendenteActionPerformed
         // TODO add your handling code here:
+        vectorDeCanales.ordenar();              //equivalente al metodo sort
+        vectorDeCanales.invertirPosiciones();   // equivalente al metodo reverse
+         JOptionPane.showMessageDialog(this, "Canales ordenados descendentemente");
         
     }//GEN-LAST:event_btnOrdenarDescendenteActionPerformed
 
     private void btnInvertirPosicionesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInvertirPosicionesActionPerformed
         // TODO add your handling code here:
+        vectorDeCanales.invertirPosiciones();
+        JOptionPane.showMessageDialog(this, "Canales invertidos");
 
     }//GEN-LAST:event_btnInvertirPosicionesActionPerformed
 
