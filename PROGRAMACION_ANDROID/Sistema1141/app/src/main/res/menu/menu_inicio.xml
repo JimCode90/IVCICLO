@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_informacion"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/informacion"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_ayuda"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="@string/ayuda"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/nav_oficinas"
+        android:title="@string/oficinas" />
+    <item
+        android:id="@+id/nav_colaboradores"
+        android:title="Colaboradores" />
+    <item
+        android:id="@+id/nav_proveedores"
+        android:title="@string/proveedores" />
+    <item
+        android:id="@+id/nav_herramientas"
+        android:title="@string/herramientas" >
+        <menu >
+            <item
+                android:id="@+id/nav_contactos"
+                android:title="@string/contactos" />
+            <item
+                android:id="@+id/nav_calendario"
+                android:title="@string/calendario" />
+        </menu>
+    </item>
+</menu>

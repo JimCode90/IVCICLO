@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/perfilFragment"
+        android:icon="@drawable/icon1"
+        android:title="Perfil"/>
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/icon2"
+        android:title="Segundo"/>
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/icon3"
+        android:title="Configuración"/>
+    <item
+        android:id="@+id/cuartoFragment"
+        android:icon="@drawable/icon4"
+        android:title="Cuarto"/>
+    <item
+        android:id="@+id/quintoFragment"
+        android:icon="@drawable/icon5"
+        android:title="Quinto"/>
+</menu>
