@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sing In"
         android:textColor="#3748A2"
-        android:textSize="34sp"
+        android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +25,7 @@
     <EditText
         android:id="@+id/edtUsuario"
         android:layout_width="340dp"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/edittext_custom"
         android:ems="10"
@@ -40,7 +41,7 @@
     <EditText
         android:id="@+id/edtPassword"
         android:layout_width="340dp"
-        android:layout_height="55dp"
+        android:layout_height="60dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/edittext_custom"
         android:ems="10"
@@ -52,13 +53,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtUsuario" />
 
-    <CheckedTextView
+    <CheckBox
         android:id="@+id/checkedTextView"
         android:layout_width="25dp"
         android:layout_height="25dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="32dp"
-        android:checked="true"
+        android:checked="false"
         android:background="@drawable/check_custom"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtPassword" />

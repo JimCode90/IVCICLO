@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -17,15 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
     PerfilFragment perfilFragment = new PerfilFragment();
     SettingsFragment settingsFragment = new SettingsFragment();
-    SecondFragment secondFragment = new SecondFragment();
-    ThirdFragment thirdFragment = new ThirdFragment();
+    MenuFragment menuFragment = new MenuFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         BottomNavigationView navigation = findViewById(R.id.botton_navigation);
         navigation.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
@@ -35,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.perfilFragment      :
                         loadFragment(perfilFragment);
                         return true;
-                    case R.id.secondFragment:
-                        loadFragment(secondFragment);
+                    case R.id.menuFragment:
+                        loadFragment(menuFragment);
                         return true;
-                    case R.id.thirdFragment:
+                    case R.id.settingFragment:
                         loadFragment(settingsFragment);
                         return true;
                 }
@@ -51,15 +49,46 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void loadFragment(Fragment fragment){
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame_container, fragment);
+        transaction.commit();
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_inicio, menu);
         return true;
     }
-    public void loadFragment(Fragment fragment){
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.frame_container, fragment);
-        transaction.commit();
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_temperatura:
+                mostrarTemperatura();
+                return true;
+            case R.id.menu_presion:
+                mostrarPresion();
+                return true;
+            case R.id.menu_temperatura_list:
+                mostrarTemperaturaLista();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void mostrarTemperatura(){
+        startActivity(new Intent(this, TemperaturaActivity.class));
+    }
+
+    private void mostrarPresion()
+    {
+        startActivity(new Intent(this, PresionActivity.class));
+    }
+
+    private void mostrarTemperaturaLista(){
+        startActivity(new Intent(this, TemperaturaListActivity.class));
     }
 }

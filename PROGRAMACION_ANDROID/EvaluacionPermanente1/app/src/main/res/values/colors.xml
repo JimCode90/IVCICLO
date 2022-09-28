@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="azul_principal">#3748A2</color>
+    <color name="azul_secundario">#3e71cc</color>
     <color name="rosado_principal">#ff5692</color>
     <color name="rosado_secundario">#FF3079</color>
     <color name="plomo_principal">#999999</color>
@@ -19,4 +20,6 @@
     <color name="green_normal">#044a42</color>
     <color name="green_light">#3a9188</color>
     <color name="green_light_2">#b8e1dd</color>
+
+    <color name="color_radio_button">#FFFFFF</color>
 </resources>
