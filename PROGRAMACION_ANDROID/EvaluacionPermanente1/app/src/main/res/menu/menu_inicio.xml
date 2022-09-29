@@ -2,11 +2,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_temperatura"
-        android:title="Menu 1" />
+        android:title="Temperatura" />
     <item
         android:id="@+id/menu_presion"
-        android:title="Menu 2" />
+        android:title="Clima" />
     <item
         android:id="@+id/menu_temperatura_list"
-        android:title="Menu 3" />
+        android:title="Detalle Temperatura" />
 </menu>

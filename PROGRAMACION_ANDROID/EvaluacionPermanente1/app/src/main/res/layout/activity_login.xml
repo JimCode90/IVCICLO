@@ -29,8 +29,8 @@
         android:layout_marginTop="50dp"
         android:background="@drawable/edittext_custom"
         android:ems="10"
-        android:hint="Lorem ipsum"
-        android:inputType="textPersonName"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:padding="18dp"
         android:singleLine="true"
@@ -45,8 +45,8 @@
         android:layout_marginTop="24dp"
         android:background="@drawable/edittext_custom"
         android:ems="10"
-        android:hint="Dolor sit"
-        android:inputType="textPersonName"
+        android:hint="Password"
+        android:inputType="textPassword"
         android:minHeight="48dp"
         android:padding="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,10 +59,11 @@
         android:layout_height="25dp"
         android:layout_marginStart="37dp"
         android:layout_marginTop="32dp"
-        android:checked="false"
         android:background="@drawable/check_custom"
+        android:checked="false"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/textView2"
@@ -73,10 +74,10 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:text="Amet lorem"
+        style="@style/style_text_principal_black"
+        android:text="Remember"
         app:layout_constraintStart_toEndOf="@+id/checkedTextView"
-        app:layout_constraintTop_toBottomOf="@+id/edtPassword"
-        style="@style/style_text_principal_black" />
+        app:layout_constraintTop_toBottomOf="@+id/edtPassword" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -84,7 +85,7 @@
         android:layout_height="56dp"
         android:layout_marginTop="42dp"
         android:backgroundTint="@color/rosado_principal"
-        android:text="LOREM"
+        android:text="INICIAR SESION"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"

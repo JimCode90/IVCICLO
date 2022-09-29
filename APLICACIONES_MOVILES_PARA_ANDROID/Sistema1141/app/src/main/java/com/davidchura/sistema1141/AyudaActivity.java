@@ -5,15 +5,43 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListAdapter;
+
+import com.davidchura.sistema1141.databinding.ActivityAyudaBinding;
 
 public class AyudaActivity extends AppCompatActivity {
 
+    private ActivityAyudaBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ayuda);
+
+        binding = ActivityAyudaBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+//        setContentView(R.layout.activity_ayuda);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        String consejos[] = {
+                "Cambie su contraseña periódicamente",
+                "No permanezca demasiado tiempo frente a la pantalla",
+                "Lea el manual de procedimientos",
+                "Apaque la computadora si no la usa",
+                "Su contraseña debe ser dificil de adivinar"
+        };
+
+        ListAdapter listAdapter = new ArrayAdapter(
+                this,
+                android.R.layout.simple_list_item_1,
+                consejos
+        );
+
+        binding.lvConsejos.setAdapter(listAdapter);
+
+
+
     }
 
     @Override
