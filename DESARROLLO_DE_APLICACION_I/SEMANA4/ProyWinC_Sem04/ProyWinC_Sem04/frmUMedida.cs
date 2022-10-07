@@ -14,7 +14,7 @@ namespace ProyWinC_Sem04
     public partial class frmUMedida : Form
     {
 
-        SqlConnection cnx = new SqlConnection(@"server=LAPTOP-ORH1E3IB\JLEON;Database=VentasLeon;Integrated Security=true");
+        SqlConnection cnx = new SqlConnection("server=DESKTOP-3V9TI4J;Database=VentasLeon;Integrated Security=true");
         SqlCommand cmd = new SqlCommand();
         SqlDataAdapter ada;
         
@@ -47,9 +47,28 @@ namespace ProyWinC_Sem04
             try
             {
                // Codifique...
-               
-               
-                
+               //Validamos
+               if(txtNomUM.Text.Trim() == "")
+                {
+                    throw new Exception("Debe ingresar un nombre para la Unidad de medida");
+
+                }
+
+                // Si todo Ok
+                cmd.Connection = cnx;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_InsertarUM";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@vdes", txtNomUM.Text.Trim());
+
+                //Abrir la conexion y ejecutar
+                cnx.Open();
+                cmd.ExecuteNonQuery();
+                txtNomUM.Text = "";
+                txtNomUM.Focus();
+
+                //Refrescamos la grilla
+                Listar();
             }
             catch (Exception ex)
             {
@@ -62,13 +81,24 @@ namespace ProyWinC_Sem04
                     cnx.Close();
 
                 }
-                Listar();
+
             }
 
         }
         private void Listar()
         {
-            
+            cmd.Connection = cnx;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "usp_ListarUM";
+            cmd.Parameters.Clear();
+
+            ada = new SqlDataAdapter(cmd);
+            DataSet dts = new DataSet();
+            ada.Fill(dts, "Unidades");
+            dtgUnidades.DataSource = dts.Tables["Unidades"];
+
+            //Muestro la cantidad de filas
+            lblRegistros.Text = dts.Tables["Unidades"].Rows.Count.ToString();
             
 
         }

@@ -1,0 +1,12 @@
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\bin\Debug\net6.0\ProyVentas_BE.deps.json
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\bin\Debug\net6.0\ProyVentas_BE.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\bin\Debug\net6.0\ProyVentas_BE.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\obj\Debug\net6.0\ProyVentas_BE.csproj.AssemblyReference.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\obj\Debug\net6.0\ProyVentas_BE.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\obj\Debug\net6.0\ProyVentas_BE.AssemblyInfoInputs.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\obj\Debug\net6.0\ProyVentas_BE.AssemblyInfo.cs
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\obj\Debug\net6.0\ProyVentas_BE.csproj.CoreCompileInputs.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\obj\Debug\net6.0\ProyVentas_BE.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\obj\Debug\net6.0\refint\ProyVentas_BE.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\obj\Debug\net6.0\ProyVentas_BE.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_BE\obj\Debug\net6.0\ref\ProyVentas_BE.dll

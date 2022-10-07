@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProyVentas_BE/1.0.0": {
+        "runtime": {
+          "ProyVentas_BE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProyVentas_BE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
