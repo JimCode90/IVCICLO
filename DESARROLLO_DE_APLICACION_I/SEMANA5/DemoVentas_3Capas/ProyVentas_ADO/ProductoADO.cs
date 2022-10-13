@@ -149,13 +149,14 @@ namespace ProyVentas_ADO
                 cnx.ConnectionString = MiConexion.GetCnx();
                 cmd.Connection = cnx;
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.CommandText = "usp_InsertarProducto";
+                cmd.CommandText = "usp_ActualizarProducto";
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@vcod", objProductoBE.Cod_pro);
                 cmd.Parameters.AddWithValue("@vdes", objProductoBE.Des_pro);
                 cmd.Parameters.AddWithValue("@vpre", objProductoBE.Pre_pro);
                 cmd.Parameters.AddWithValue("@vstka", objProductoBE.Stk_act);
                 cmd.Parameters.AddWithValue("@vstkm", objProductoBE.Stk_min);
+
                 cmd.Parameters.AddWithValue("@vId_UM", objProductoBE.Id_UM);
                 cmd.Parameters.AddWithValue("@vId_Cat", objProductoBE.Id_Cat);
                 cmd.Parameters.AddWithValue("@vimp", objProductoBE.Importado);

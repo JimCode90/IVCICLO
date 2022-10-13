@@ -56,7 +56,26 @@ namespace ProyVentas_GUI
                 cboUM.DisplayMember = "Des_UM";
                 cboUM.ValueMember = "Id_UM";
 
-                // Codifique                
+                // Codifique
+                // Consultamos el producto que se va a actualizar
+                objProductoBE = objProductoBL.ConsultarProducto(this.Codigo);
+
+                lblCodigo.Text = objProductoBE.Cod_pro;
+
+                txtDescripcion.Text = objProductoBE.Des_pro;
+                txtPrecio.Text = objProductoBE.Pre_pro.ToString();
+                txtStkAct.Text = objProductoBE.Stk_act.ToString();
+                txtStkMin.Text =objProductoBE.Stk_min.ToString();
+
+                chkImportado.Checked = Convert.ToBoolean(objProductoBE.Importado);
+                chkActivo.Checked = Convert.ToBoolean(objProductoBE.Est_pro);
+
+                cboCategoria.SelectedValue = objProductoBE.Id_Cat.ToString();
+                cboUM.SelectedValue = objProductoBE.Id_UM.ToString();
+
+
+
+
 
             }
             catch (Exception ex)
@@ -70,6 +89,40 @@ namespace ProyVentas_GUI
             try
             {
                 //Codifique
+                //Validamos...
+                if (txtDescripcion.Text.Trim() == "")
+                {
+                    throw new Exception("La descripcion es obligatorio");
+                }
+
+                if (cboUM.SelectedIndex == 0 || cboCategoria.SelectedIndex == 0)
+                {
+                    throw new Exception("La unidad de medida y la categoria son obligatorias");
+                }
+
+                //Si todo esta ok, procedemos a asignar las propiedades a la instancia objProductoBE
+                objProductoBE.Cod_pro = lblCodigo.Text;
+                objProductoBE.Des_pro = txtDescripcion.Text;
+                objProductoBE.Pre_pro = Convert.ToSingle(txtPrecio.Text.Trim());
+                objProductoBE.Stk_act = Convert.ToInt16(txtStkAct.Text.Trim());
+                objProductoBE.Stk_min = Convert.ToInt16(txtStkMin.Text.Trim());
+                objProductoBE.Importado = Convert.ToInt16(chkImportado.Checked);
+                objProductoBE.Est_pro = Convert.ToInt16(chkActivo.Checked);
+                objProductoBE.Id_Cat = Convert.ToInt16(cboCategoria.SelectedValue);
+                objProductoBE.Id_UM = Convert.ToInt16(cboUM.SelectedValue);
+
+                //Por ahora ponemos en duro el usu_ult_mod
+                objProductoBE.Usu_Ult_Mod = "jleon";
+
+                //Invocamos al metodo insertarProducto
+                if (objProductoBL.ActualizarProducto(objProductoBE) == true)
+                {
+                    this.Close();
+                }
+                else
+                {
+                    throw new Exception("No se actualizo el registro, contacto con IT");
+                }
             }
             catch (Exception ex)
             {

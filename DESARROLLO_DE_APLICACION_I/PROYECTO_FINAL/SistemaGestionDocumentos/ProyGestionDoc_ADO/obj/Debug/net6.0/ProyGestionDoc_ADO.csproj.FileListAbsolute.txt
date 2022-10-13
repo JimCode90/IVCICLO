@@ -1,0 +1,15 @@
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\bin\Debug\net6.0\ProyGestionDoc_ADO.deps.json
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\bin\Debug\net6.0\ProyGestionDoc_ADO.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\bin\Debug\net6.0\ProyGestionDoc_ADO.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\bin\Debug\net6.0\ProyGestionDoc_BE.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\bin\Debug\net6.0\ProyGestionDoc_BE.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\ProyGestionDoc_ADO.csproj.AssemblyReference.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\ProyGestionDoc_ADO.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\ProyGestionDoc_ADO.AssemblyInfoInputs.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\ProyGestionDoc_ADO.AssemblyInfo.cs
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\ProyGestionDoc_ADO.csproj.CoreCompileInputs.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\ProyGestionDoc_ADO.csproj.CopyComplete
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\ProyGestionDoc_ADO.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\refint\ProyGestionDoc_ADO.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\ProyGestionDoc_ADO.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_ADO\obj\Debug\net6.0\ref\ProyGestionDoc_ADO.dll

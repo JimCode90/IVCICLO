@@ -86,6 +86,20 @@ namespace ProyVentas_GUI
                 objProductoBE.Id_Cat = Convert.ToInt16(cboCategoria.SelectedValue);
                 objProductoBE.Id_UM = Convert.ToInt16(cboUM.SelectedValue);
 
+                //Por ahora ponemos en duro el usu_registro
+                objProductoBE.Usu_Registro = "jleon";
+
+                //Invocamos al metodo insertarProducto
+                if(objProductoBL.InsertarProducto(objProductoBE) == true)
+                {
+                    this.Close();
+                }
+                else
+                {
+                    throw new Exception("No se inserto el registro, contacto con IT");
+                }
+
+
             }
             catch (Exception ex)
             {
