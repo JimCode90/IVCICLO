@@ -38,6 +38,25 @@
         <item name="android:textAlignment">center</item>
     </style>
 
+    <style name="boton_mas">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/estilos_boton_mas</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="boton_menos">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/estilos_boton_menos</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
 
     <style name="SFUIDisplay_Medium">
         <item name="android:fontFamily">@font/sfuidisplaymedium</item>
