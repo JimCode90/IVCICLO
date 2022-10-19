@@ -19,9 +19,9 @@ namespace ProyVentas_GUI
 
         private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //ProveedorMan01 prov01 = new ProveedorMan01();
-            //prov01.MdiParent = this;
-            //prov01.Show();
+            ProveedorMan01 prov01 = new ProveedorMan01();
+            prov01.MdiParent = this;
+            prov01.Show();
         }
 
         private void vendedoresToolStripMenuItem_Click(object sender, EventArgs e)
