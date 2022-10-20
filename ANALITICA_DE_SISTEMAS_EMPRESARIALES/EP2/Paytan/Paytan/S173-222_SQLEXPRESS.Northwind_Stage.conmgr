@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="S173-222_SQLEXPRESS.Northwind_Stage"
+  DTS:DTSID="{F77FE504-EF7C-41BA-AC81-6348701EA64C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=S173-222\SQLEXPRESS;Initial Catalog=Northwind_Stage;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Paytan-{F77FE504-EF7C-41BA-AC81-6348701EA64C}S173-222\SQLEXPRESS.Northwind_Stage;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

@@ -1,0 +1,62 @@
+        Select Case CType(Row.NDiaDeSemana, Integer)
+            Case 1
+                Row.DescripcionDiaSemana = "Lunes"
+            Case 2
+                Row.DescripcionDiaSemana = "Martes"
+            Case 3
+                Row.DescripcionDiaSemana = "Miercoles"
+            Case 4
+                Row.DescripcionDiaSemana = "Jueves"
+            Case 5
+                Row.DescripcionDiaSemana = "Viernes"
+            Case 6
+                Row.DescripcionDiaSemana = "Sábado"
+            Case 7
+                Row.DescripcionDiaSemana = "Domingo"
+        End Select
+
+        Select Case CType(Row.NTrimestre, Integer)
+            Case 1
+                Row.DescripcionTrimestre = "1er Trimestre"
+            Case 2
+                Row.DescripcionTrimestre = "2do Trimestre"
+            Case 3
+                Row.DescripcionTrimestre = "3er Trimestre"
+            Case 4
+                Row.DescripcionTrimestre = "4to Trimestre"
+        End Select
+
+
+        Select Case CType(Row.NTrimestre, Integer)
+            Case 1, 2
+                Row.DescripcionSemestre = "1er Semestre"
+            Case 3, 4
+                Row.DescripcionSemestre = "2do Semestre"
+        End Select
+
+        Select Case CType(Row.NMes, Integer)
+            Case 1
+                Row.DescripcionMes = "Enero"
+            Case 2
+                Row.DescripcionMes = "Febrero"
+            Case 3
+                Row.DescripcionMes = "Marzo"
+            Case 4
+                Row.DescripcionMes = "Abril"
+            Case 5
+                Row.DescripcionMes = "Mayo"
+            Case 6
+                Row.DescripcionMes = "Junio"
+            Case 7
+                Row.DescripcionMes = "Julio"
+            Case 8
+                Row.DescripcionMes = "Agosto"
+            Case 9
+                Row.DescripcionMes = "Septiembre"
+            Case 10
+                Row.DescripcionMes = "Octubre"
+            Case 11
+                Row.DescripcionMes = "Noviembre"
+            Case 12
+                Row.DescripcionMes = "Diciembre"
+        End Select
