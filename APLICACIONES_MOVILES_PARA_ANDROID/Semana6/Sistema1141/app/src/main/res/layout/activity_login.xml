@@ -75,6 +75,7 @@
         android:id="@+id/swGuardarSesion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD:APLICACIONES_MOVILES_PARA_ANDROID/Semana6/Sistema1141/app/src/main/res/layout/activity_login.xml
         android:layout_marginStart="25dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="244dp"
@@ -83,4 +84,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion"
         tools:ignore="TouchTargetSizeCheck" />
+=======
+        android:layout_marginStart="@dimen/espaciado"
+        android:text="Guardar sesión"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion" />
+>>>>>>> b5bce6c2b79b6b8d20e75acab9bddb59332a248b:APLICACIONES_MOVILES_PARA_ANDROID/Sistema1141/app/src/main/res/layout/activity_login.xml
 </androidx.constraintlayout.widget.ConstraintLayout>

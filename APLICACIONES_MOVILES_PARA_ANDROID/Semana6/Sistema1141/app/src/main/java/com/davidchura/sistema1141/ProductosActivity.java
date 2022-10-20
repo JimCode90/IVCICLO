@@ -89,10 +89,14 @@ public class ProductosActivity extends AppCompatActivity {
             ProductoAdapter productoAdapter = new ProductoAdapter(arrayList);
             binding.rvProductos.setAdapter(productoAdapter);
 
+<<<<<<< HEAD:APLICACIONES_MOVILES_PARA_ANDROID/Semana6/Sistema1141/app/src/main/java/com/davidchura/sistema1141/ProductosActivity.java
 //            LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
 //            linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
             binding.rvProductos.setLayoutManager(new GridLayoutManager(this, 2));
 
+=======
+            binding.rvProductos.setLayoutManager(new GridLayoutManager(this, 3));
+>>>>>>> b5bce6c2b79b6b8d20e75acab9bddb59332a248b:APLICACIONES_MOVILES_PARA_ANDROID/Sistema1141/app/src/main/java/com/davidchura/sistema1141/ProductosActivity.java
 
         } catch (JSONException e) {
             e.printStackTrace();

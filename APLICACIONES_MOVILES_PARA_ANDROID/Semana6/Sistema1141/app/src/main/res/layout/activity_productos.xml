@@ -12,6 +12,13 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD:APLICACIONES_MOVILES_PARA_ANDROID/Semana6/Sistema1141/app/src/main/res/layout/activity_productos.xml
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+>>>>>>> b5bce6c2b79b6b8d20e75acab9bddb59332a248b:APLICACIONES_MOVILES_PARA_ANDROID/Sistema1141/app/src/main/res/layout/activity_productos.xml
 </androidx.constraintlayout.widget.ConstraintLayout>
