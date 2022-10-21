@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Vista Index</title>
+</head>
+<body>
+<h1>Vista Index</h1>
+<!--<h2 th:text="${list.size()}"></h2>-->
+<!--<h3 th:text="'El nombre es: ' + ${name}"></h3>-->
+<!--<div th:if="${list.size() > 0}">Existen datos</div>-->
+<!--<div th:if="${list.size() <= 0}">No Existen datos</div>-->
+<!--    <h2 th:if="${num % 2 == 0}">Es par</h2>-->
+<!--    <h2 th:if="${num % 2 != 0}">Es impar</h2>-->
+<h1 th:text="${saludo}"></h1>
+<h1 th:text="${despedida}"></h1>
+<br>
+<h1 th:if = "${lstusers.isEmpty()}">No hay usuarios registrados!</h1>
+<table th:if="${lstusers.size() > 0}">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Fecha de nacimiento</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user : ${lstusers}">
+        <td th:text="${user.getNombre()}"></td>
+        <td th:text="${user.getApeMaterno()}"></td>
+        <td th:text="${user.getCorreo()}"></td>
+        <td th:text="${user.getBirthdate().toString()}"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

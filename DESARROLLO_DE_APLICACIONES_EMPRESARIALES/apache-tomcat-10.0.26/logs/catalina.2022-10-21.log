@@ -1,0 +1,1198 @@
+21-Oct-2022 12:00:29.699 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.26
+21-Oct-2022 12:00:29.702 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 23 2022 10:25:44 UTC
+21-Oct-2022 12:00:29.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.26.0
+21-Oct-2022 12:00:29.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+21-Oct-2022 12:00:29.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+21-Oct-2022 12:00:29.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+21-Oct-2022 12:00:29.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk1.8.0_261\jre
+21-Oct-2022 12:00:29.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_261-b12
+21-Oct-2022 12:00:29.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+21-Oct-2022 12:00:29.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 12:00:29.703 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 12:00:29.704 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\logging.properties
+21-Oct-2022 12:00:29.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2022 12:00:29.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|S173-222
+21-Oct-2022 12:00:29.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2022 12:00:29.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2022 12:00:29.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+21-Oct-2022 12:00:29.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 12:00:29.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 12:00:29.705 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\temp
+21-Oct-2022 12:00:29.735 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+21-Oct-2022 12:00:29.735 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+21-Oct-2022 12:00:29.754 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+21-Oct-2022 12:00:30.147 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+21-Oct-2022 12:00:30.172 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [711] milliseconds
+21-Oct-2022 12:00:30.204 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+21-Oct-2022 12:00:30.205 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.26]
+21-Oct-2022 12:00:30.212 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml]
+21-Oct-2022 12:00:30.229 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has been ignored
+21-Oct-2022 12:00:30.609 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [125] milliseconds.
+21-Oct-2022 12:00:30.627 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has finished in [415] ms
+21-Oct-2022 12:00:30.628 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml]
+21-Oct-2022 12:00:30.629 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mi_proyecto] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has been ignored
+21-Oct-2022 12:00:31.182 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:00:31.185 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has finished in [558] ms
+21-Oct-2022 12:00:31.186 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] de la aplicación web
+21-Oct-2022 12:00:31.201 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] has finished in [16] ms
+21-Oct-2022 12:00:31.202 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] de la aplicación web
+21-Oct-2022 12:00:31.637 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] has finished in [435] ms
+21-Oct-2022 12:00:31.638 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] de la aplicación web
+21-Oct-2022 12:00:31.661 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] has finished in [22] ms
+21-Oct-2022 12:00:31.661 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] de la aplicación web
+21-Oct-2022 12:00:31.682 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] has finished in [21] ms
+21-Oct-2022 12:00:31.682 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\ROOT] de la aplicación web
+21-Oct-2022 12:00:31.697 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\ROOT] has finished in [14] ms
+21-Oct-2022 12:00:31.699 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 12:00:31.718 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [1546] milliseconds
+21-Oct-2022 12:00:36.128 INFORMACIÓN [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 12:00:36.129 ADVERTENCIA [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 12:00:36.515 INFORMACIÓN [http-nio-8081-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:00:36.517 INFORMACIÓN [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [389] ms
+21-Oct-2022 12:00:36.521 INFORMACIÓN [http-nio-8081-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 12:02:38.562 ADVERTENCIA [http-nio-8081-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 12:02:38.563 ADVERTENCIA [http-nio-8081-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:02:39.077 INFORMACIÓN [http-nio-8081-exec-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 12:02:41.238 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:02:52.464 INFORMACIÓN [http-nio-8081-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 12:02:52.465 ADVERTENCIA [http-nio-8081-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 12:02:52.833 INFORMACIÓN [http-nio-8081-exec-8] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:02:52.836 INFORMACIÓN [http-nio-8081-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [371] ms
+21-Oct-2022 12:02:52.839 INFORMACIÓN [http-nio-8081-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 12:11:13.512 INFORMACIÓN [http-nio-8081-exec-18] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 12:11:13.516 ADVERTENCIA [http-nio-8081-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 12:11:13.517 ADVERTENCIA [http-nio-8081-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:11:13.825 INFORMACIÓN [http-nio-8081-exec-18] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:11:13.827 INFORMACIÓN [http-nio-8081-exec-18] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 12:11:15.285 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:11:21.899 INFORMACIÓN [http-nio-8081-exec-22] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 12:11:28.029 INFORMACIÓN [http-nio-8081-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 12:11:28.030 ADVERTENCIA [http-nio-8081-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 12:11:28.327 INFORMACIÓN [http-nio-8081-exec-16] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:11:28.328 INFORMACIÓN [http-nio-8081-exec-16] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [300] ms
+21-Oct-2022 12:11:28.332 INFORMACIÓN [http-nio-8081-exec-14] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 12:12:10.831 INFORMACIÓN [http-nio-8081-exec-16] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 12:12:10.833 ADVERTENCIA [http-nio-8081-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 12:12:10.833 ADVERTENCIA [http-nio-8081-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:12:11.127 INFORMACIÓN [http-nio-8081-exec-16] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:12:11.128 INFORMACIÓN [http-nio-8081-exec-16] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 12:12:15.223 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:13:18.472 INFORMACIÓN [http-nio-8081-exec-37] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 12:13:18.477 ADVERTENCIA [http-nio-8081-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 12:13:18.477 ADVERTENCIA [http-nio-8081-exec-37] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:13:18.756 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:13:18.757 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:13:18.758 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:13:18.822 INFORMACIÓN [http-nio-8081-exec-37] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:13:18.824 INFORMACIÓN [http-nio-8081-exec-37] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 12:13:29.707 INFORMACIÓN [http-nio-8081-exec-33] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 12:13:29.993 INFORMACIÓN [http-nio-8081-exec-33] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:13:29.995 INFORMACIÓN [http-nio-8081-exec-33] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 12:30:41.693 INFORMACIÓN [http-nio-8081-exec-46] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 12:30:41.698 ADVERTENCIA [http-nio-8081-exec-46] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 12:30:41.699 ADVERTENCIA [http-nio-8081-exec-46] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:30:41.994 INFORMACIÓN [http-nio-8081-exec-46] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:30:41.996 INFORMACIÓN [http-nio-8081-exec-46] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 12:30:42.373 INFORMACIÓN [http-nio-8081-exec-50] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 12:30:42.650 INFORMACIÓN [http-nio-8081-exec-50] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:30:42.652 INFORMACIÓN [http-nio-8081-exec-50] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 12:30:46.008 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:33:46.727 INFORMACIÓN [http-nio-8081-exec-52] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 12:34:12.095 INFORMACIÓN [http-nio-8081-exec-52] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 12:34:12.097 ADVERTENCIA [http-nio-8081-exec-52] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 12:34:12.443 INFORMACIÓN [http-nio-8081-exec-52] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:34:12.445 INFORMACIÓN [http-nio-8081-exec-52] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [350] ms
+21-Oct-2022 12:34:12.449 INFORMACIÓN [http-nio-8081-exec-57] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 12:44:51.451 INFORMACIÓN [http-nio-8081-exec-61] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 12:44:51.456 ADVERTENCIA [http-nio-8081-exec-61] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 12:44:51.456 ADVERTENCIA [http-nio-8081-exec-61] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:44:51.572 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:44:51.573 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:44:51.574 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:44:51.634 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:44:51.635 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:44:51.636 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:44:51.697 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:44:51.698 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:44:51.793 INFORMACIÓN [http-nio-8081-exec-61] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:44:51.794 INFORMACIÓN [http-nio-8081-exec-61] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 12:48:48.446 INFORMACIÓN [http-nio-8081-exec-70] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 12:48:48.843 INFORMACIÓN [http-nio-8081-exec-70] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:48:48.846 INFORMACIÓN [http-nio-8081-exec-70] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 12:48:54.986 INFORMACIÓN [http-nio-8081-exec-67] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 12:49:02.937 INFORMACIÓN [http-nio-8081-exec-71] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 12:49:02.938 ADVERTENCIA [http-nio-8081-exec-71] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 12:49:03.249 INFORMACIÓN [http-nio-8081-exec-71] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:49:03.253 INFORMACIÓN [http-nio-8081-exec-71] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [316] ms
+21-Oct-2022 12:49:03.257 INFORMACIÓN [http-nio-8081-exec-73] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 12:51:26.789 INFORMACIÓN [http-nio-8081-exec-82] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto []
+21-Oct-2022 12:51:26.836 INFORMACIÓN [http-nio-8081-exec-81] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+21-Oct-2022 12:51:26.838 ADVERTENCIA [http-nio-8081-exec-81] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has been ignored
+21-Oct-2022 12:51:27.307 INFORMACIÓN [http-nio-8081-exec-81] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:51:27.311 INFORMACIÓN [http-nio-8081-exec-81] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has finished in [476] ms
+21-Oct-2022 12:51:27.317 INFORMACIÓN [http-nio-8081-exec-80] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 12:51:34.605 ADVERTENCIA [http-nio-8081-exec-84] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.util.zip.ZipFile.getEntry(Native Method)
+ java.util.zip.ZipFile.getEntry(ZipFile.java:316)
+ java.util.jar.JarFile.getEntry(JarFile.java:241)
+ java.util.jar.JarFile.getJarEntry(JarFile.java:224)
+ sun.misc.URLClassPath$JarLoader.getResource(URLClassPath.java:1074)
+ sun.misc.URLClassPath.getResource(URLClassPath.java:249)
+ sun.misc.URLClassPath.getResource(URLClassPath.java:302)
+ java.lang.ClassLoader.getBootstrapResource(ClassLoader.java:1257)
+ java.lang.ClassLoader.getResource(ClassLoader.java:1086)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1345)
+ org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1257)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:51:35.114 INFORMACIÓN [http-nio-8081-exec-84] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto []
+21-Oct-2022 12:51:35.148 INFORMACIÓN [http-nio-8081-exec-78] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+21-Oct-2022 12:51:35.150 ADVERTENCIA [http-nio-8081-exec-78] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has been ignored
+21-Oct-2022 12:51:35.663 INFORMACIÓN [http-nio-8081-exec-78] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:51:35.667 INFORMACIÓN [http-nio-8081-exec-78] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has finished in [519] ms
+21-Oct-2022 12:51:35.672 INFORMACIÓN [http-nio-8081-exec-85] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 12:51:39.610 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:52:06.635 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto []
+21-Oct-2022 12:52:06.643 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [ROOT] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 12:52:06.644 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:52:06.657 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+21-Oct-2022 12:52:06.659 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has been ignored
+21-Oct-2022 12:52:06.666 GRAVE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1757)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:316)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@10ac8e67]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 25 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\JIMMY\Downloads\Huaranca_Berrospi\target\Huaranca_Berrospi-1.0-SNAPSHOT] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 29 more
+21-Oct-2022 12:52:06.682 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:52:06.871 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has finished in [214] ms
+21-Oct-2022 12:52:08.202 ADVERTENCIA [http-nio-8081-exec-87] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 12:52:08.203 ADVERTENCIA [http-nio-8081-exec-87] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:52:08.540 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:52:08.711 INFORMACIÓN [http-nio-8081-exec-87] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 12:52:12.723 INFORMACIÓN [http-nio-8081-exec-84] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 12:52:12.725 ADVERTENCIA [http-nio-8081-exec-84] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 12:52:13.000 INFORMACIÓN [http-nio-8081-exec-84] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:52:13.001 INFORMACIÓN [http-nio-8081-exec-84] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [278] ms
+21-Oct-2022 12:52:13.004 INFORMACIÓN [http-nio-8081-exec-87] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 12:55:30.073 ADVERTENCIA [http-nio-8081-exec-102] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 12:55:30.074 ADVERTENCIA [http-nio-8081-exec-102] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:55:30.588 INFORMACIÓN [http-nio-8081-exec-102] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 12:55:32.274 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 12:55:38.275 INFORMACIÓN [http-nio-8081-exec-98] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 12:55:38.276 ADVERTENCIA [http-nio-8081-exec-98] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 12:55:38.569 INFORMACIÓN [http-nio-8081-exec-98] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 12:55:38.573 INFORMACIÓN [http-nio-8081-exec-98] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [299] ms
+21-Oct-2022 12:55:38.578 INFORMACIÓN [http-nio-8081-exec-97] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 13:08:48.341 ADVERTENCIA [http-nio-8081-exec-107] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 13:08:48.342 ADVERTENCIA [http-nio-8081-exec-107] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 13:08:48.799 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 13:08:48.846 INFORMACIÓN [http-nio-8081-exec-107] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 13:08:48.875 INFORMACIÓN [http-nio-8081-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 13:08:48.878 ADVERTENCIA [http-nio-8081-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 13:08:49.185 INFORMACIÓN [http-nio-8081-exec-104] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 13:08:49.187 INFORMACIÓN [http-nio-8081-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [312] ms
+21-Oct-2022 13:08:49.191 INFORMACIÓN [http-nio-8081-exec-105] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 13:08:50.144 INFORMACIÓN [http-nio-8081-exec-111] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 13:08:50.456 INFORMACIÓN [http-nio-8081-exec-111] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 13:08:50.457 INFORMACIÓN [http-nio-8081-exec-111] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 13:10:26.571 INFORMACIÓN [http-nio-8081-exec-124] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 13:10:26.575 ADVERTENCIA [http-nio-8081-exec-124] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 13:10:26.575 ADVERTENCIA [http-nio-8081-exec-124] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 13:10:26.841 INFORMACIÓN [http-nio-8081-exec-124] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 13:10:26.842 INFORMACIÓN [http-nio-8081-exec-124] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 13:10:28.751 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 13:12:00.837 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+21-Oct-2022 13:12:00.838 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 13:12:00.972 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+21-Oct-2022 13:12:00.983 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 13:12:01.004 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 13:13:14.840 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.26
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 23 2022 10:25:44 UTC
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.26.0
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk1.8.0_261\jre
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_261-b12
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 13:13:14.842 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 13:13:14.843 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\logging.properties
+21-Oct-2022 13:13:14.843 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2022 13:13:14.843 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|S173-222
+21-Oct-2022 13:13:14.843 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2022 13:13:14.844 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2022 13:13:14.844 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+21-Oct-2022 13:13:14.844 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 13:13:14.844 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 13:13:14.844 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\temp
+21-Oct-2022 13:13:14.848 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+21-Oct-2022 13:13:14.848 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+21-Oct-2022 13:13:14.852 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+21-Oct-2022 13:13:15.185 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+21-Oct-2022 13:13:15.203 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [520] milliseconds
+21-Oct-2022 13:13:15.227 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+21-Oct-2022 13:13:15.227 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.26]
+21-Oct-2022 13:13:15.235 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 13:13:15.253 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 13:13:15.804 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 13:13:15.967 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [138] milliseconds.
+21-Oct-2022 13:13:15.991 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [756] ms
+21-Oct-2022 13:13:15.991 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml]
+21-Oct-2022 13:13:15.993 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has been ignored
+21-Oct-2022 13:13:16.025 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has finished in [34] ms
+21-Oct-2022 13:13:16.026 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml]
+21-Oct-2022 13:13:16.026 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mi_proyecto] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has been ignored
+21-Oct-2022 13:13:16.509 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 13:13:16.511 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has finished in [486] ms
+21-Oct-2022 13:13:16.511 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+21-Oct-2022 13:13:16.513 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has been ignored
+21-Oct-2022 13:13:16.520 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1907874b]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\JIMMY\Downloads\Huaranca_Berrospi\target\Huaranca_Berrospi-1.0-SNAPSHOT] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+21-Oct-2022 13:13:16.569 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has finished in [58] ms
+21-Oct-2022 13:13:16.570 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] de la aplicación web
+21-Oct-2022 13:13:16.612 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] has finished in [41] ms
+21-Oct-2022 13:13:16.612 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] de la aplicación web
+21-Oct-2022 13:13:16.864 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] has finished in [252] ms
+21-Oct-2022 13:13:16.864 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] de la aplicación web
+21-Oct-2022 13:13:16.890 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] has finished in [26] ms
+21-Oct-2022 13:13:16.890 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] de la aplicación web
+21-Oct-2022 13:13:16.911 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] has finished in [21] ms
+21-Oct-2022 13:13:16.914 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 13:13:16.965 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [1762] milliseconds
+21-Oct-2022 13:13:17.062 INFORMACIÓN [http-nio-8081-exec-8] org.apache.catalina.core.StandardWrapper.unload Esperando por [1] instancia(s) para recuperar su espacio reservado
+21-Oct-2022 13:13:18.360 INFORMACIÓN [http-nio-8081-exec-8] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 13:13:18.399 INFORMACIÓN [http-nio-8081-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 13:13:18.400 ADVERTENCIA [http-nio-8081-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 13:13:18.749 INFORMACIÓN [http-nio-8081-exec-2] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 13:13:18.751 INFORMACIÓN [http-nio-8081-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [352] ms
+21-Oct-2022 13:13:18.754 INFORMACIÓN [http-nio-8081-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 14:58:00.239 INFORMACIÓN [http-nio-8081-exec-19] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 14:58:00.246 ADVERTENCIA [http-nio-8081-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 14:58:00.246 ADVERTENCIA [http-nio-8081-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 14:58:00.598 INFORMACIÓN [http-nio-8081-exec-19] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 14:58:00.599 INFORMACIÓN [http-nio-8081-exec-19] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 14:58:01.699 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 14:58:58.036 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+21-Oct-2022 14:58:58.036 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 14:58:58.161 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+21-Oct-2022 14:58:58.172 ADVERTENCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 14:58:58.172 ADVERTENCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 14:58:58.191 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 14:58:58.205 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 14:59:06.861 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.26
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 23 2022 10:25:44 UTC
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.26.0
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk1.8.0_261\jre
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_261-b12
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 14:59:06.864 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 14:59:06.867 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\logging.properties
+21-Oct-2022 14:59:06.867 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2022 14:59:06.867 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|S173-222
+21-Oct-2022 14:59:06.867 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2022 14:59:06.867 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2022 14:59:06.867 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+21-Oct-2022 14:59:06.867 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 14:59:06.867 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 14:59:06.868 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\temp
+21-Oct-2022 14:59:06.914 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+21-Oct-2022 14:59:06.914 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+21-Oct-2022 14:59:06.923 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+21-Oct-2022 14:59:07.349 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+21-Oct-2022 14:59:07.368 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [692] milliseconds
+21-Oct-2022 14:59:07.397 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+21-Oct-2022 14:59:07.397 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.26]
+21-Oct-2022 14:59:07.405 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 14:59:07.420 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 14:59:08.071 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 14:59:08.235 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [140] milliseconds.
+21-Oct-2022 14:59:08.250 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [845] ms
+21-Oct-2022 14:59:08.250 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml]
+21-Oct-2022 14:59:08.251 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has been ignored
+21-Oct-2022 14:59:08.284 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has finished in [34] ms
+21-Oct-2022 14:59:08.285 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml]
+21-Oct-2022 14:59:08.286 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mi_proyecto] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has been ignored
+21-Oct-2022 14:59:08.717 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 14:59:08.719 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has finished in [434] ms
+21-Oct-2022 14:59:08.720 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+21-Oct-2022 14:59:08.721 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has been ignored
+21-Oct-2022 14:59:08.724 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1907874b]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\JIMMY\Downloads\Huaranca_Berrospi\target\Huaranca_Berrospi-1.0-SNAPSHOT] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+21-Oct-2022 14:59:08.734 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has finished in [13] ms
+21-Oct-2022 14:59:08.735 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] de la aplicación web
+21-Oct-2022 14:59:08.765 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] has finished in [30] ms
+21-Oct-2022 14:59:08.766 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] de la aplicación web
+21-Oct-2022 14:59:09.193 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] has finished in [426] ms
+21-Oct-2022 14:59:09.193 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] de la aplicación web
+21-Oct-2022 14:59:09.216 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] has finished in [23] ms
+21-Oct-2022 14:59:09.217 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] de la aplicación web
+21-Oct-2022 14:59:09.238 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] has finished in [21] ms
+21-Oct-2022 14:59:09.242 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 14:59:09.289 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [1920] milliseconds
+21-Oct-2022 14:59:09.913 INFORMACIÓN [http-nio-8081-exec-6] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 14:59:09.957 INFORMACIÓN [http-nio-8081-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 14:59:09.959 ADVERTENCIA [http-nio-8081-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 14:59:10.290 INFORMACIÓN [http-nio-8081-exec-5] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 14:59:10.292 INFORMACIÓN [http-nio-8081-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [336] ms
+21-Oct-2022 14:59:10.296 INFORMACIÓN [http-nio-8081-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 15:00:10.280 INFORMACIÓN [http-nio-8081-exec-16] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 15:00:10.282 ADVERTENCIA [http-nio-8081-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 15:00:10.282 ADVERTENCIA [http-nio-8081-exec-16] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 15:00:10.592 INFORMACIÓN [http-nio-8081-exec-16] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 15:00:10.595 INFORMACIÓN [http-nio-8081-exec-16] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 15:00:11.936 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 15:00:22.983 INFORMACIÓN [http-nio-8081-exec-13] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 15:00:23.282 INFORMACIÓN [http-nio-8081-exec-13] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 15:00:23.285 INFORMACIÓN [http-nio-8081-exec-13] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 16:32:24.672 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.26
+21-Oct-2022 16:32:24.674 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 23 2022 10:25:44 UTC
+21-Oct-2022 16:32:24.675 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.26.0
+21-Oct-2022 16:32:24.675 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+21-Oct-2022 16:32:24.675 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+21-Oct-2022 16:32:24.675 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+21-Oct-2022 16:32:24.675 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk1.8.0_261\jre
+21-Oct-2022 16:32:24.675 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_261-b12
+21-Oct-2022 16:32:24.675 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+21-Oct-2022 16:32:24.675 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 16:32:24.675 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 16:32:24.676 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\logging.properties
+21-Oct-2022 16:32:24.676 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2022 16:32:24.676 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|S173-222
+21-Oct-2022 16:32:24.676 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2022 16:32:24.676 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2022 16:32:24.676 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+21-Oct-2022 16:32:24.676 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 16:32:24.676 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 16:32:24.677 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\temp
+21-Oct-2022 16:32:24.705 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+21-Oct-2022 16:32:24.705 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+21-Oct-2022 16:32:24.725 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+21-Oct-2022 16:32:25.091 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+21-Oct-2022 16:32:25.113 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [626] milliseconds
+21-Oct-2022 16:32:25.140 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+21-Oct-2022 16:32:25.140 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.26]
+21-Oct-2022 16:32:25.149 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 16:32:25.165 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 16:32:25.736 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 16:32:25.875 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [110] milliseconds.
+21-Oct-2022 16:32:25.891 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [742] ms
+21-Oct-2022 16:32:25.891 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml]
+21-Oct-2022 16:32:25.892 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has been ignored
+21-Oct-2022 16:32:25.924 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has finished in [32] ms
+21-Oct-2022 16:32:25.924 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml]
+21-Oct-2022 16:32:25.925 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mi_proyecto] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has been ignored
+21-Oct-2022 16:32:26.348 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 16:32:26.350 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has finished in [426] ms
+21-Oct-2022 16:32:26.350 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+21-Oct-2022 16:32:26.351 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has been ignored
+21-Oct-2022 16:32:26.355 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1907874b]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\JIMMY\Downloads\Huaranca_Berrospi\target\Huaranca_Berrospi-1.0-SNAPSHOT] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+21-Oct-2022 16:32:26.373 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has finished in [23] ms
+21-Oct-2022 16:32:26.374 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] de la aplicación web
+21-Oct-2022 16:32:26.409 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] has finished in [35] ms
+21-Oct-2022 16:32:26.410 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] de la aplicación web
+21-Oct-2022 16:32:26.919 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] has finished in [509] ms
+21-Oct-2022 16:32:26.919 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] de la aplicación web
+21-Oct-2022 16:32:26.943 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] has finished in [24] ms
+21-Oct-2022 16:32:26.943 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] de la aplicación web
+21-Oct-2022 16:32:26.965 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] has finished in [22] ms
+21-Oct-2022 16:32:26.969 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 16:32:27.017 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [1903] milliseconds
+21-Oct-2022 16:32:29.538 INFORMACIÓN [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 16:32:29.600 INFORMACIÓN [http-nio-8081-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 16:32:29.603 ADVERTENCIA [http-nio-8081-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 16:32:29.925 INFORMACIÓN [http-nio-8081-exec-3] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 16:32:29.927 INFORMACIÓN [http-nio-8081-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [327] ms
+21-Oct-2022 16:32:29.931 INFORMACIÓN [http-nio-8081-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 16:38:34.084 INFORMACIÓN [http-nio-8081-exec-18] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/examen_parcial]
+21-Oct-2022 16:38:34.089 ADVERTENCIA [http-nio-8081-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 16:38:34.090 ADVERTENCIA [http-nio-8081-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:38:34.245 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:38:34.247 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:38:34.248 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:38:34.281 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:38:34.282 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:38:34.283 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:38:34.345 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:38:34.406 INFORMACIÓN [http-nio-8081-exec-18] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 16:38:34.407 INFORMACIÓN [http-nio-8081-exec-18] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+21-Oct-2022 16:38:38.418 INFORMACIÓN [http-nio-8081-exec-17] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 16:38:38.448 INFORMACIÓN [http-nio-8081-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 16:38:38.450 ADVERTENCIA [http-nio-8081-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 16:38:38.747 INFORMACIÓN [http-nio-8081-exec-20] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 16:38:38.750 INFORMACIÓN [http-nio-8081-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [302] ms
+21-Oct-2022 16:38:38.753 INFORMACIÓN [http-nio-8081-exec-19] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 16:44:38.515 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 16:44:38.524 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 16:44:38.525 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:44:38.543 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 16:44:38.545 ADVERTENCIA [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 16:44:38.555 GRAVE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1757)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:316)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+		at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@23058fe1]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 25 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\EvaluacionParcial\target\examen_parcial-1.0-SNAPSHOT] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 29 more
+21-Oct-2022 16:44:38.558 INFORMACIÓN [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [14] ms
+21-Oct-2022 16:44:38.950 INFORMACIÓN [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+	java.lang.IllegalStateException: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1469)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1059)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:44:41.973 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+21-Oct-2022 16:44:41.973 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 16:44:42.085 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+21-Oct-2022 16:44:42.100 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 16:44:42.118 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 16:48:57.123 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/10.0.26
+21-Oct-2022 16:48:57.125 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Sep 23 2022 10:25:44 UTC
+21-Oct-2022 16:48:57.125 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     10.0.26.0
+21-Oct-2022 16:48:57.125 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+21-Oct-2022 16:48:57.125 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+21-Oct-2022 16:48:57.125 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+21-Oct-2022 16:48:57.126 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk1.8.0_261\jre
+21-Oct-2022 16:48:57.126 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_261-b12
+21-Oct-2022 16:48:57.126 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+21-Oct-2022 16:48:57.126 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 16:48:57.126 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 16:48:57.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\logging.properties
+21-Oct-2022 16:48:57.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2022 16:48:57.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dhttp.nonProxyHosts=localhost|127.0.0.1|S173-222
+21-Oct-2022 16:48:57.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2022 16:48:57.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2022 16:48:57.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+21-Oct-2022 16:48:57.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 16:48:57.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26
+21-Oct-2022 16:48:57.127 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\temp
+21-Oct-2022 16:48:57.131 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.35] con la versión APR [1.7.0].
+21-Oct-2022 16:48:57.131 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+21-Oct-2022 16:48:57.135 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1q  5 Jul 2022]
+21-Oct-2022 16:48:57.475 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+21-Oct-2022 16:48:57.495 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [540] milliseconds
+21-Oct-2022 16:48:57.521 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+21-Oct-2022 16:48:57.521 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.26]
+21-Oct-2022 16:48:57.528 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 16:48:57.542 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 16:48:57.566 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@35a50a4c]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\EvaluacionParcial\target\examen_parcial-1.0-SNAPSHOT] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+21-Oct-2022 16:48:57.613 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [84] ms
+21-Oct-2022 16:48:57.614 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml]
+21-Oct-2022 16:48:57.614 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has been ignored
+21-Oct-2022 16:48:57.886 ADVERTENCIA [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [112] milliseconds.
+21-Oct-2022 16:48:57.900 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mavenproject1.xml] has finished in [286] ms
+21-Oct-2022 16:48:57.900 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml]
+21-Oct-2022 16:48:57.901 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mi_proyecto] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has been ignored
+21-Oct-2022 16:48:58.366 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 16:48:58.369 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\mi_proyecto.xml] has finished in [468] ms
+21-Oct-2022 16:48:58.369 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+21-Oct-2022 16:48:58.370 ADVERTENCIA [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has been ignored
+21-Oct-2022 16:48:58.375 GRAVE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error durante el despliegue del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:747)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:693)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1979)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:586)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:476)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1708)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:320)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:886)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@127e70c5]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4835)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4973)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [C:\Users\JIMMY\Downloads\Huaranca_Berrospi\target\Huaranca_Berrospi-1.0-SNAPSHOT] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:762)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:719)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+21-Oct-2022 16:48:58.427 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\ROOT.xml] has finished in [58] ms
+21-Oct-2022 16:48:58.429 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] de la aplicación web
+21-Oct-2022 16:48:58.454 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\docs] has finished in [24] ms
+21-Oct-2022 16:48:58.454 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] de la aplicación web
+21-Oct-2022 16:48:58.677 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\examples] has finished in [223] ms
+21-Oct-2022 16:48:58.677 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] de la aplicación web
+21-Oct-2022 16:48:58.699 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\host-manager] has finished in [22] ms
+21-Oct-2022 16:48:58.699 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] de la aplicación web
+21-Oct-2022 16:48:58.722 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\webapps\manager] has finished in [23] ms
+21-Oct-2022 16:48:58.725 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 16:48:58.739 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [1243] milliseconds
+21-Oct-2022 16:49:02.155 INFORMACIÓN [http-nio-8081-exec-7] org.apache.catalina.startup.HostConfig.undeploy Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/examen_parcial]
+21-Oct-2022 16:49:02.204 INFORMACIÓN [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml]
+21-Oct-2022 16:49:02.207 ADVERTENCIA [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/examen_parcial] in deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has been ignored
+21-Oct-2022 16:49:02.526 INFORMACIÓN [http-nio-8081-exec-9] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+21-Oct-2022 16:49:02.528 INFORMACIÓN [http-nio-8081-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACIONES_EMPRESARIALES\apache-tomcat-10.0.26\conf\Catalina\localhost\examen_parcial.xml] has finished in [324] ms
+21-Oct-2022 16:49:02.532 INFORMACIÓN [http-nio-8081-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examen_parcial]] after start() had already been called. The second call will be ignored.
+21-Oct-2022 16:54:01.438 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+21-Oct-2022 16:54:01.438 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 16:54:01.560 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+21-Oct-2022 16:54:01.580 ADVERTENCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc La aplicación web [examen_parcial] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+21-Oct-2022 16:54:01.582 ADVERTENCIA [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [examen_parcial] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+21-Oct-2022 16:54:01.603 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+21-Oct-2022 16:54:01.608 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
