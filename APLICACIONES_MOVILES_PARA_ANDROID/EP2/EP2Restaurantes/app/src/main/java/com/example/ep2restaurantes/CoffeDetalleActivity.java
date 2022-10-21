@@ -4,8 +4,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -25,7 +27,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CoffeDetalleActivity extends AppCompatActivity {
+public class CoffeDetalleActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ActivityCoffeDetalleBinding binding;
 
@@ -34,6 +36,10 @@ public class CoffeDetalleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityCoffeDetalleBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+        getSupportActionBar().hide();
+
+        binding.btnRegresar2.setOnClickListener(this);
+
         Bundle bundle = getIntent().getExtras();
         String idtipo = bundle.getString("idtipo");
         String nombre = bundle.getString("nombre");
@@ -70,15 +76,28 @@ public class CoffeDetalleActivity extends AppCompatActivity {
 
     private void llenarLista(String response) {
         System.out.println(response);
-        TextView tvNombre;
+        TextView tvNombre, tvPrecio, tvPrecioTotal;
         tvNombre = (TextView) findViewById(R.id.tvNombre);
+        tvPrecio = (TextView) findViewById(R.id.tvPrecio);
+        tvPrecioTotal = (TextView) findViewById(R.id.tvPrecioTotal);
+
         try {
             JSONArray jsonArray = new JSONArray(response);
             String nombre= jsonArray.getJSONObject(0).getString("nombre");
+            String precio= jsonArray.getJSONObject(0).getString("precio");
             tvNombre.setText(nombre);
+            tvPrecio.setText(precio + " SOL");
+            tvPrecioTotal.setText(precio + " SOL");
 
         } catch (JSONException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        startActivity(new Intent(this, MenuActivity.class));
+        finish();
     }
 }

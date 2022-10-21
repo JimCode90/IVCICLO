@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -26,7 +27,7 @@ import org.json.JSONException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class MenuActivity extends AppCompatActivity implements CoffeAdapter.OnItemClickListener {
+public class MenuActivity extends AppCompatActivity implements CoffeAdapter.OnItemClickListener, View.OnClickListener {
     private ActivityMenuBinding binding;
     ArrayList arrayList = new ArrayList<HashMap<String,String>>();
 
@@ -37,6 +38,9 @@ public class MenuActivity extends AppCompatActivity implements CoffeAdapter.OnIt
 
         binding = ActivityMenuBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        binding.btnRegresar.setOnClickListener(this);
+
         getSupportActionBar().hide();
         leerDatos();
     }
@@ -111,5 +115,13 @@ public class MenuActivity extends AppCompatActivity implements CoffeAdapter.OnIt
         Intent intent = new Intent(this, CoffeDetalleActivity.class);
         intent.putExtras(bundle);
         startActivity(intent);
+    }
+
+
+    @Override
+    public void onClick(View v) {
+
+        startActivity(new Intent(this, ChooseMachineActivity.class));
+        finish();
     }
 }

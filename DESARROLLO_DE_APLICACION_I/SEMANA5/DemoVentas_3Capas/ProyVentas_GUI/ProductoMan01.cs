@@ -82,7 +82,14 @@ namespace ProyVentas_GUI
             {
                 // Codifique
                 ProductoMan03 objMan03 = new ProductoMan03();
+                //Asignamos el codigo del producto seleccionado en el datagrid
+                objMan03.Codigo = dtgDatos.CurrentRow.Cells[0].Value.ToString();
+
+                //Abrimos el formulario de actualizacion
                 objMan03.ShowDialog();
+
+                //Refrescamos el Datagrid
+                CargarDatos(txtFiltro.Text);
 
             }
             catch (Exception ex)

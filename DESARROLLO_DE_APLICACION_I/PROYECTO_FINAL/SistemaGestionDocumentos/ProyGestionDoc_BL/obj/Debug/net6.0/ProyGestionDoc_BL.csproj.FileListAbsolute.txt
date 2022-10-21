@@ -1,0 +1,17 @@
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\bin\Debug\net6.0\ProyGestionDoc_BL.deps.json
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\bin\Debug\net6.0\ProyGestionDoc_BL.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\bin\Debug\net6.0\ProyGestionDoc_BL.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\bin\Debug\net6.0\ProyGestionDoc_ADO.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\bin\Debug\net6.0\ProyGestionDoc_BE.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\bin\Debug\net6.0\ProyGestionDoc_ADO.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\bin\Debug\net6.0\ProyGestionDoc_BE.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\ProyGestionDoc_BL.csproj.AssemblyReference.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\ProyGestionDoc_BL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\ProyGestionDoc_BL.AssemblyInfoInputs.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\ProyGestionDoc_BL.AssemblyInfo.cs
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\ProyGestionDoc_BL.csproj.CoreCompileInputs.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\ProyGestionDoc_BL.csproj.CopyComplete
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\ProyGestionDoc_BL.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\refint\ProyGestionDoc_BL.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\ProyGestionDoc_BL.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_BL\obj\Debug\net6.0\ref\ProyGestionDoc_BL.dll

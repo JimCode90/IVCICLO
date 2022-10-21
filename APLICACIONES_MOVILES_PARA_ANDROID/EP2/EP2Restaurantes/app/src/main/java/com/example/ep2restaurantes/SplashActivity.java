@@ -2,7 +2,10 @@ package com.example.ep2restaurantes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -11,5 +14,13 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         getSupportActionBar().hide();
+        new Handler(Looper.getMainLooper()).postDelayed(()->{
+            mostrarMain();
+        }, 3000);
+    }
+
+    private void mostrarMain() {
+        startActivity(new Intent(this, OnboardingActivity.class));
+        finish();
     }
 }

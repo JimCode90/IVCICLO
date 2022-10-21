@@ -33,3 +33,8 @@ D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_
 D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_GUI\obj\Debug\net6.0-windows\ProyVentas_GUI.ProductoMan01.resources
 D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_GUI\obj\Debug\net6.0-windows\ProyVentas_GUI.ProductoMan02.resources
 D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_GUI\obj\Debug\net6.0-windows\ProyVentas_GUI.ProductoMan03.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_GUI\obj\Debug\net6.0-windows\ProyVentas_GUI.frmLogin.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_GUI\obj\Debug\net6.0-windows\ProyVentas_GUI.MDIPrincipal.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_GUI\obj\Debug\net6.0-windows\ProyVentas_GUI.ProveedorMan01.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_GUI\obj\Debug\net6.0-windows\ProyVentas_GUI.ProveedorMan02.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\SEMANA5\DemoVentas_3Capas\ProyVentas_GUI\obj\Debug\net6.0-windows\ProyVentas_GUI.ProveedorMan03.resources

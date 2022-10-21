@@ -51,7 +51,7 @@
             android:layout_weight="1"></Space>
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnRegistro"
             style="@style/boton_normal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             android:layout_weight="1"></Space>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnLogin"
             style="@style/boton_outline"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
