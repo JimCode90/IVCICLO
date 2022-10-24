@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_ADO\\ProyGestionDoc_ADO.csproj",
         "projectName": "ProyGestionDoc_ADO",
         "projectPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_ADO\\ProyGestionDoc_ADO.csproj",
-        "packagesPath": "C:\\Users\\51979\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\JIMMY\\.nuget\\packages\\",
         "outputPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_ADO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\51979\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JIMMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -84,14 +84,14 @@
         "projectUniqueName": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_BE\\ProyGestionDoc_BE.csproj",
         "projectName": "ProyGestionDoc_BE",
         "projectPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_BE\\ProyGestionDoc_BE.csproj",
-        "packagesPath": "C:\\Users\\51979\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\JIMMY\\.nuget\\packages\\",
         "outputPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_BE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\51979\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JIMMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -134,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -144,14 +144,14 @@
         "projectUniqueName": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_BL\\ProyGestionDoc_BL.csproj",
         "projectName": "ProyGestionDoc_BL",
         "projectPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_BL\\ProyGestionDoc_BL.csproj",
-        "packagesPath": "C:\\Users\\51979\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\JIMMY\\.nuget\\packages\\",
         "outputPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\51979\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JIMMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -201,7 +201,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -211,14 +211,14 @@
         "projectUniqueName": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_GUI\\ProyGestionDoc_GUI.csproj",
         "projectName": "ProyGestionDoc_GUI",
         "projectPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_GUI\\ProyGestionDoc_GUI.csproj",
-        "packagesPath": "C:\\Users\\51979\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\JIMMY\\.nuget\\packages\\",
         "outputPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\PROYECTO_FINAL\\SistemaGestionDocumentos\\ProyGestionDoc_GUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\51979\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\JIMMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -277,7 +277,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

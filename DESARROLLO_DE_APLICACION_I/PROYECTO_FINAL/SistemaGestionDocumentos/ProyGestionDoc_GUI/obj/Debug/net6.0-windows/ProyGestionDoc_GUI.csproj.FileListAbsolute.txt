@@ -32,3 +32,8 @@ D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocument
 D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_GUI\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
 D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_GUI\obj\Debug\net6.0-windows\ProyGestionDoc_GUI.Inicio.resources
 D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_GUI\obj\Debug\net6.0-windows\ProyGestionDoc_GUI.Login.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_GUI\obj\Debug\net6.0-windows\ProyGestionDoc_GUI.frmEspecie.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_GUI\obj\Debug\net6.0-windows\ProyGestionDoc_GUI.frmPersona.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_GUI\obj\Debug\net6.0-windows\ProyGestionDoc_GUI.frmUsuario.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_GUI\obj\Debug\net6.0-windows\ProyGestionDoc_GUI.frmVehiculo.resources
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_FINAL\SistemaGestionDocumentos\ProyGestionDoc_GUI\obj\Debug\net6.0-windows\ProyGestionDoc_GUI.Properties.Resources.resources

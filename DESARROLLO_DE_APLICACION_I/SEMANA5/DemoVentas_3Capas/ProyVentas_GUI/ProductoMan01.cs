@@ -26,7 +26,7 @@ namespace ProyVentas_GUI
 
         private void ProductoMan01_Load(object sender, EventArgs e)
         {
-         
+        
             CargarDatos("");
 
         }

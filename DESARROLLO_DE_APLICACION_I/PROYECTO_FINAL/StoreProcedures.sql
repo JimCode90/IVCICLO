@@ -4,13 +4,13 @@ use SistemaDocumentosPNP;
 	   
 CREATE PROCEDURE usp_ListarGrados AS BEGIN
 SELECT
-       idTipoGrado,
-       descripcion,
-       estado
+       Id_Gra,
+       Opc_Gra,
+       Est_Gra
 FROM
-       TipoGrado
+       Tb_TipoGrado
 ORDER BY
-       idTipoGrado
+       Id_Gra
 END
 GO
 
@@ -18,12 +18,12 @@ GO
 	   
 CREATE PROCEDURE usp_ListarUnidades AS BEGIN
 SELECT
-       idUnidad,
-       nombre,
-       estado
+       Id_Uni,
+       Opc_Uni,
+       Est_Uni
 FROM
-       Unidades
+       Tb_Unidades
 ORDER BY
-       idUnidad
+       Id_Uni
 END
 GO

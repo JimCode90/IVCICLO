@@ -57,7 +57,7 @@
             this.menuConfiguracion});
             this.menu.Location = new System.Drawing.Point(0, 72);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(1171, 73);
+            this.menu.Size = new System.Drawing.Size(1098, 73);
             this.menu.TabIndex = 0;
             this.menu.Text = "menuStrip1";
             // 
@@ -73,6 +73,7 @@
             this.menuUsuarios.Size = new System.Drawing.Size(100, 69);
             this.menuUsuarios.Text = "Usuarios";
             this.menuUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menuUsuarios.Click += new System.EventHandler(this.menuUsuarios_Click);
             // 
             // menuDocumentos
             // 
@@ -99,6 +100,7 @@
             this.menuPersonas.Size = new System.Drawing.Size(100, 69);
             this.menuPersonas.Text = "Personas";
             this.menuPersonas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menuPersonas.Click += new System.EventHandler(this.menuPersonas_Click);
             // 
             // menuVehiculos
             // 
@@ -112,6 +114,7 @@
             this.menuVehiculos.Size = new System.Drawing.Size(100, 69);
             this.menuVehiculos.Text = "Vehiculos";
             this.menuVehiculos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menuVehiculos.Click += new System.EventHandler(this.menuVehiculos_Click);
             // 
             // menuArmamentos
             // 
@@ -138,6 +141,7 @@
             this.menuEspecies.Size = new System.Drawing.Size(100, 69);
             this.menuEspecies.Text = "Especies";
             this.menuEspecies.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menuEspecies.Click += new System.EventHandler(this.menuEspecies_Click);
             // 
             // menuConsultas
             // 
@@ -172,7 +176,7 @@
             this.menuTitle.Location = new System.Drawing.Point(0, 0);
             this.menuTitle.Name = "menuTitle";
             this.menuTitle.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuTitle.Size = new System.Drawing.Size(1171, 72);
+            this.menuTitle.Size = new System.Drawing.Size(1098, 72);
             this.menuTitle.TabIndex = 1;
             this.menuTitle.Text = "menuStrip2";
             // 
@@ -193,14 +197,14 @@
             this.contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contenedor.Location = new System.Drawing.Point(0, 145);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(1171, 481);
+            this.contenedor.Size = new System.Drawing.Size(1098, 682);
             this.contenedor.TabIndex = 3;
             // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1171, 626);
+            this.ClientSize = new System.Drawing.Size(1098, 827);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menu);
