@@ -27,3 +27,25 @@ ORDER BY
        Id_Uni
 END
 GO
+
+CREATE PROCEDURE usp_ListarMarcaVehiculo AS BEGIN
+SELECT
+       Id_Mar_veh,
+       Opc_Mar_veh
+FROM
+       Tb_TipoMarcaVehiculo
+ORDER BY
+       Id_Mar_veh
+END
+GO
+
+CREATE PROCEDURE usp_ListarTipoEspecies AS BEGIN
+SELECT
+       Id_tip_espec,
+       Opc_espec
+FROM
+       Tb_TipoEspecie
+ORDER BY
+       Id_tip_espec
+END
+GO

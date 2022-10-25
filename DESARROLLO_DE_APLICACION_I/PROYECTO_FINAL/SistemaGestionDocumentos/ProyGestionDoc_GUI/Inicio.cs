@@ -59,5 +59,16 @@ namespace ProyGestionDoc_GUI
         {
             AbrirFormulario((IconMenuItem)sender, new frmEspecie());
         }
+
+        private void contenedor_Scroll(object sender, ScrollEventArgs e)
+        {
+            if (e.NewValue == contenedor.VerticalScroll.Maximum - contenedor.VerticalScroll.LargeChange + 1)
+            {
+                if (e.NewValue != e.OldValue) // Checking when the scrollbar is at bottom and user clicks/scrolls the scrollbar      
+                {
+                    MessageBox.Show("Test"); // Some operation
+                }
+            }
+        }
     }
 }

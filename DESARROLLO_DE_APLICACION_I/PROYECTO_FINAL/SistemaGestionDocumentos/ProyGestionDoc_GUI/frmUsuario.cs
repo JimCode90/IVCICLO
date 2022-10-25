@@ -323,13 +323,24 @@ namespace ProyGestionDoc_GUI
             }
         }
 
-  
-
-        private void label5_Click(object sender, EventArgs e)
+        private void label1_Resize(object sender, EventArgs e)
         {
-
+            this.Refresh();
         }
 
-      
+        private void panel1_ControlAdded(object sender, ControlEventArgs e)
+        {
+            panelFormUsuario.ScrollControlIntoView(e.Control);
+        }
+
+        private void label14_Resize(object sender, EventArgs e)
+        {
+            this.Refresh();
+        }
+
+        private void frmUsuario_Resize(object sender, EventArgs e)
+        {
+            this.Refresh();
+        }
     }
 }

@@ -777,7 +777,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JIMMY\\.nuget\\packages\\": {},
+    "C:\\Users\\51979\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -786,14 +786,14 @@
       "projectUniqueName": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\SEMANA5\\DemoVentas_3Capas\\ProyVentas_BL\\ProyVentas_BL.csproj",
       "projectName": "ProyVentas_BL",
       "projectPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\SEMANA5\\DemoVentas_3Capas\\ProyVentas_BL\\ProyVentas_BL.csproj",
-      "packagesPath": "C:\\Users\\JIMMY\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\51979\\.nuget\\packages\\",
       "outputPath": "D:\\ISIL\\IVCICLO\\DESARROLLO_DE_APLICACION_I\\SEMANA5\\DemoVentas_3Capas\\ProyVentas_BL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\JIMMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\51979\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -843,7 +843,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
