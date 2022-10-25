@@ -46,6 +46,8 @@
             // menu
             // 
             this.menu.BackColor = System.Drawing.Color.White;
+            this.menu.Dock = System.Windows.Forms.DockStyle.None;
+            this.menu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuUsuarios,
             this.menuDocumentos,
@@ -55,9 +57,10 @@
             this.menuEspecies,
             this.menuConsultas,
             this.menuConfiguracion});
-            this.menu.Location = new System.Drawing.Point(0, 72);
+            this.menu.Location = new System.Drawing.Point(0, 96);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(1098, 73);
+            this.menu.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
+            this.menu.Size = new System.Drawing.Size(809, 75);
             this.menu.TabIndex = 0;
             this.menu.Text = "menuStrip1";
             // 
@@ -173,10 +176,12 @@
             // 
             this.menuTitle.AutoSize = false;
             this.menuTitle.BackColor = System.Drawing.Color.DarkGreen;
+            this.menuTitle.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuTitle.Location = new System.Drawing.Point(0, 0);
             this.menuTitle.Name = "menuTitle";
+            this.menuTitle.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
             this.menuTitle.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuTitle.Size = new System.Drawing.Size(1098, 72);
+            this.menuTitle.Size = new System.Drawing.Size(1381, 96);
             this.menuTitle.TabIndex = 1;
             this.menuTitle.Text = "menuStrip2";
             // 
@@ -186,30 +191,34 @@
             this.label1.BackColor = System.Drawing.Color.DarkGreen;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(20, 20);
+            this.label1.Location = new System.Drawing.Point(23, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(696, 37);
+            this.label1.Size = new System.Drawing.Size(875, 46);
             this.label1.TabIndex = 2;
             this.label1.Text = "Sistema de Consultas y Gestión de Documentos Policiales";
             // 
             // contenedor
             // 
-            this.contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.contenedor.Location = new System.Drawing.Point(0, 145);
+            this.contenedor.Location = new System.Drawing.Point(0, 193);
+            this.contenedor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(1098, 682);
+            this.contenedor.Size = new System.Drawing.Size(1381, 909);
             this.contenedor.TabIndex = 3;
+            this.contenedor.Scroll += new System.Windows.Forms.ScrollEventHandler(this.contenedor_Scroll);
             // 
             // Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1098, 827);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1381, 1103);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.menuTitle);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
