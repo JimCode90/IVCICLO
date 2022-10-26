@@ -19,6 +19,11 @@ namespace ProyGestionDoc_BL
             return objVehiculoADO.ListarVehiculo();
         }
 
+        public VehiculoBE ConsultarVehiculo(Int16 strCodigo)
+        {
+            return objVehiculoADO.ConsultarVehiculo(strCodigo);
+        }
+
         public Boolean InsertarVehiculo(VehiculoBE objVehiculoBE)
         {
             return objVehiculoADO.InsertarVehiculo(objVehiculoBE);
@@ -27,6 +32,11 @@ namespace ProyGestionDoc_BL
         public Boolean ActualizarVehiculo(VehiculoBE objVehiculoBE)
         {
             return objVehiculoADO.ActualizarVehiculo(objVehiculoBE);
+        }
+
+        public Boolean EliminarVehiculo(Int16 strCodigo)
+        {
+            return objVehiculoADO.EliminarVehiculo(strCodigo);
         }
     }
 }

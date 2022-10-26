@@ -20,6 +20,11 @@ namespace ProyGestionDoc_BL
             return objUsuarioADO.ListarUsuario();
         }
 
+        public UsuarioBE ConsultarUsuario(String strCodigo)
+        {
+            return objUsuarioADO.ConsultarUsuario(strCodigo);
+        }
+
         public Boolean InsertarUsuario(UsuarioBE objUsuarioBE)
         {
             return objUsuarioADO.InsertarUsuario(objUsuarioBE);
@@ -30,5 +35,9 @@ namespace ProyGestionDoc_BL
             return objUsuarioADO.ActualizarUsuario(objUsuarioBE);
         }
 
+        public Boolean EliminarUsuario(String strCodigo)
+        {
+            return objUsuarioADO.EliminarUsuario(strCodigo);
+        }
     }
 }

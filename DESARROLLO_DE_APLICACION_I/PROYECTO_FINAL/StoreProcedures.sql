@@ -49,3 +49,14 @@ ORDER BY
        Id_tip_espec
 END
 GO
+
+CREATE PROCEDURE usp_Nacionalidades AS BEGIN
+SELECT
+       Id_Nac,
+       Opc_Nac
+FROM
+       Tb_TipoNacionalidad
+ORDER BY
+       Id_Nac
+END
+GO

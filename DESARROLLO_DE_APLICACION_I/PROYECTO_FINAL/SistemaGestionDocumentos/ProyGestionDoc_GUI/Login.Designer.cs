@@ -28,15 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtCip = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnIngresar = new FontAwesome.Sharp.IconButton();
             this.btnCancelar = new FontAwesome.Sharp.IconButton();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,12 +76,12 @@
             this.iconPictureBox1.TabIndex = 2;
             this.iconPictureBox1.TabStop = false;
             // 
-            // txtEmail
+            // txtCip
             // 
-            this.txtEmail.Location = new System.Drawing.Point(202, 205);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(221, 23);
-            this.txtEmail.TabIndex = 3;
+            this.txtCip.Location = new System.Drawing.Point(202, 205);
+            this.txtCip.Name = "txtCip";
+            this.txtCip.Size = new System.Drawing.Size(221, 23);
+            this.txtCip.TabIndex = 3;
             // 
             // txtPassword
             // 
@@ -94,9 +96,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(202, 187);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(111, 15);
+            this.label3.Size = new System.Drawing.Size(68, 15);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Correo Institucional";
+            this.label3.Text = "Nro. Carnet";
             // 
             // label4
             // 
@@ -149,18 +151,24 @@
             this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(616, 405);
+            this.ClientSize = new System.Drawing.Size(616, 427);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtCip);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -179,11 +187,12 @@
         private Label label1;
         private Label label2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private TextBox txtEmail;
+        private TextBox txtCip;
         private TextBox txtPassword;
         private Label label3;
         private Label label4;
         private FontAwesome.Sharp.IconButton btnIngresar;
         private FontAwesome.Sharp.IconButton btnCancelar;
+        private System.Windows.Forms.Timer timer1;
     }
 }

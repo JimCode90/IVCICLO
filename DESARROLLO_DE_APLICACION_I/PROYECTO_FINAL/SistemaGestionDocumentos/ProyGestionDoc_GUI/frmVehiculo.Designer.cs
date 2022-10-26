@@ -51,12 +51,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.dtgDatos = new System.Windows.Forms.DataGridView();
-            this.label7 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.txtIdVeh = new System.Windows.Forms.TextBox();
-            this.btnAbrirPcb = new FontAwesome.Sharp.IconButton();
-            this.pcbImagen = new System.Windows.Forms.PictureBox();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.btnSeleccionar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Id_veh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Mod_veh = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -68,6 +62,12 @@
             this.Est_veh = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Id_Mar_veh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.txtIdVeh = new System.Windows.Forms.TextBox();
+            this.btnAbrirPcb = new FontAwesome.Sharp.IconButton();
+            this.pcbImagen = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.dtgDatos)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcbImagen)).BeginInit();
@@ -78,9 +78,9 @@
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(26, 36);
+            this.label13.Location = new System.Drawing.Point(23, 27);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(276, 35);
+            this.label13.Size = new System.Drawing.Size(221, 28);
             this.label13.TabIndex = 27;
             this.label13.Text = "DATOS DEL VEHICULO";
             // 
@@ -88,19 +88,18 @@
             // 
             this.cboMarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboMarca.FormattingEnabled = true;
-            this.cboMarca.Location = new System.Drawing.Point(33, 112);
-            this.cboMarca.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cboMarca.Location = new System.Drawing.Point(29, 84);
             this.cboMarca.Name = "cboMarca";
-            this.cboMarca.Size = new System.Drawing.Size(261, 28);
+            this.cboMarca.Size = new System.Drawing.Size(229, 23);
             this.cboMarca.TabIndex = 29;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(33, 88);
+            this.label4.Location = new System.Drawing.Point(29, 66);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
+            this.label4.Size = new System.Drawing.Size(40, 15);
             this.label4.TabIndex = 28;
             this.label4.Text = "Marca";
             // 
@@ -108,53 +107,50 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(33, 149);
+            this.label1.Location = new System.Drawing.Point(29, 112);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 20);
+            this.label1.Size = new System.Drawing.Size(48, 15);
             this.label1.TabIndex = 30;
             this.label1.Text = "Modelo";
             // 
             // txtModelo
             // 
-            this.txtModelo.Location = new System.Drawing.Point(33, 173);
-            this.txtModelo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtModelo.Location = new System.Drawing.Point(29, 130);
             this.txtModelo.Name = "txtModelo";
-            this.txtModelo.Size = new System.Drawing.Size(261, 27);
+            this.txtModelo.Size = new System.Drawing.Size(229, 23);
             this.txtModelo.TabIndex = 31;
             // 
             // txtPlaca
             // 
-            this.txtPlaca.Location = new System.Drawing.Point(33, 235);
-            this.txtPlaca.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtPlaca.Location = new System.Drawing.Point(29, 176);
             this.txtPlaca.Name = "txtPlaca";
-            this.txtPlaca.Size = new System.Drawing.Size(261, 27);
+            this.txtPlaca.Size = new System.Drawing.Size(229, 23);
             this.txtPlaca.TabIndex = 33;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(33, 211);
+            this.label3.Location = new System.Drawing.Point(29, 158);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(76, 20);
+            this.label3.Size = new System.Drawing.Size(61, 15);
             this.label3.TabIndex = 32;
             this.label3.Text = "Nro. Placa";
             // 
             // txtColor
             // 
-            this.txtColor.Location = new System.Drawing.Point(33, 297);
-            this.txtColor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtColor.Location = new System.Drawing.Point(29, 223);
             this.txtColor.Name = "txtColor";
-            this.txtColor.Size = new System.Drawing.Size(261, 27);
+            this.txtColor.Size = new System.Drawing.Size(229, 23);
             this.txtColor.TabIndex = 35;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(33, 273);
+            this.label5.Location = new System.Drawing.Point(29, 205);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 20);
+            this.label5.Size = new System.Drawing.Size(36, 15);
             this.label5.TabIndex = 34;
             this.label5.Text = "Color";
             // 
@@ -162,19 +158,18 @@
             // 
             this.cboEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboEstado.FormattingEnabled = true;
-            this.cboEstado.Location = new System.Drawing.Point(33, 360);
-            this.cboEstado.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cboEstado.Location = new System.Drawing.Point(29, 270);
             this.cboEstado.Name = "cboEstado";
-            this.cboEstado.Size = new System.Drawing.Size(261, 28);
+            this.cboEstado.Size = new System.Drawing.Size(229, 23);
             this.cboEstado.TabIndex = 37;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(33, 336);
+            this.label6.Location = new System.Drawing.Point(29, 252);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 20);
+            this.label6.Size = new System.Drawing.Size(42, 15);
             this.label6.TabIndex = 36;
             this.label6.Text = "Estado";
             // 
@@ -188,13 +183,13 @@
             this.btnEliminar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnEliminar.IconColor = System.Drawing.Color.Black;
             this.btnEliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnEliminar.Location = new System.Drawing.Point(33, 739);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEliminar.Location = new System.Drawing.Point(29, 554);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(262, 31);
+            this.btnEliminar.Size = new System.Drawing.Size(229, 23);
             this.btnEliminar.TabIndex = 40;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -206,10 +201,9 @@
             this.btnEditar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnEditar.IconColor = System.Drawing.Color.Black;
             this.btnEditar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnEditar.Location = new System.Drawing.Point(33, 700);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEditar.Location = new System.Drawing.Point(29, 525);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(262, 31);
+            this.btnEditar.Size = new System.Drawing.Size(229, 23);
             this.btnEditar.TabIndex = 39;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
@@ -225,10 +219,9 @@
             this.btnRegistrar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnRegistrar.IconColor = System.Drawing.Color.Black;
             this.btnRegistrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnRegistrar.Location = new System.Drawing.Point(33, 661);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRegistrar.Location = new System.Drawing.Point(29, 496);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(262, 31);
+            this.btnRegistrar.Size = new System.Drawing.Size(229, 23);
             this.btnRegistrar.TabIndex = 38;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = false;
@@ -245,12 +238,12 @@
             this.btnLimpiar.IconColor = System.Drawing.Color.White;
             this.btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiar.IconSize = 16;
-            this.btnLimpiar.Location = new System.Drawing.Point(1282, 80);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLimpiar.Location = new System.Drawing.Point(1122, 60);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(55, 31);
+            this.btnLimpiar.Size = new System.Drawing.Size(48, 23);
             this.btnLimpiar.TabIndex = 46;
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnBuscar
             // 
@@ -263,38 +256,36 @@
             this.btnBuscar.IconColor = System.Drawing.Color.White;
             this.btnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBuscar.IconSize = 16;
-            this.btnBuscar.Location = new System.Drawing.Point(1220, 80);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnBuscar.Location = new System.Drawing.Point(1068, 60);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(54, 31);
+            this.btnBuscar.Size = new System.Drawing.Size(47, 23);
             this.btnBuscar.TabIndex = 45;
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // txtBusqueda
             // 
-            this.txtBusqueda.Location = new System.Drawing.Point(962, 80);
-            this.txtBusqueda.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtBusqueda.Location = new System.Drawing.Point(842, 60);
             this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(252, 27);
+            this.txtBusqueda.Size = new System.Drawing.Size(221, 23);
             this.txtBusqueda.TabIndex = 44;
             // 
             // cboBusqueda
             // 
             this.cboBusqueda.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBusqueda.FormattingEnabled = true;
-            this.cboBusqueda.Location = new System.Drawing.Point(802, 80);
-            this.cboBusqueda.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cboBusqueda.Location = new System.Drawing.Point(702, 60);
             this.cboBusqueda.Name = "cboBusqueda";
-            this.cboBusqueda.Size = new System.Drawing.Size(153, 28);
+            this.cboBusqueda.Size = new System.Drawing.Size(134, 23);
             this.cboBusqueda.TabIndex = 43;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(718, 84);
+            this.label15.Location = new System.Drawing.Point(628, 63);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(82, 20);
+            this.label15.Size = new System.Drawing.Size(66, 15);
             this.label15.TabIndex = 42;
             this.label15.Text = "Buscar por:";
             // 
@@ -302,9 +293,9 @@
             // 
             this.label14.BackColor = System.Drawing.Color.White;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(350, 53);
+            this.label14.Location = new System.Drawing.Point(306, 40);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(997, 76);
+            this.label14.Size = new System.Drawing.Size(872, 57);
             this.label14.TabIndex = 41;
             this.label14.Text = "LISTA DE VEHICULOS";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -312,6 +303,7 @@
             // dtgDatos
             // 
             this.dtgDatos.AllowUserToAddRows = false;
+            this.dtgDatos.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -334,7 +326,8 @@
             this.Est_veh,
             this.Estado,
             this.Id_Mar_veh});
-            this.dtgDatos.Location = new System.Drawing.Point(350, 165);
+            this.dtgDatos.Location = new System.Drawing.Point(306, 124);
+            this.dtgDatos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtgDatos.MultiSelect = false;
             this.dtgDatos.Name = "dtgDatos";
             this.dtgDatos.ReadOnly = true;
@@ -348,73 +341,11 @@
             this.dtgDatos.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dtgDatos.RowHeadersWidth = 51;
             this.dtgDatos.RowTemplate.Height = 28;
-            this.dtgDatos.Size = new System.Drawing.Size(997, 440);
+            this.dtgDatos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgDatos.Size = new System.Drawing.Size(872, 330);
             this.dtgDatos.TabIndex = 47;
             this.dtgDatos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgDatos_CellContentClick);
             this.dtgDatos.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dtgDatos_CellPainting);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(33, 404);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 20);
-            this.label7.TabIndex = 48;
-            this.label7.Text = "Imagen";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.txtIdVeh);
-            this.panel1.Controls.Add(this.btnAbrirPcb);
-            this.panel1.Controls.Add(this.pcbImagen);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(329, 801);
-            this.panel1.TabIndex = 49;
-            // 
-            // txtIdVeh
-            // 
-            this.txtIdVeh.Location = new System.Drawing.Point(237, 80);
-            this.txtIdVeh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtIdVeh.Name = "txtIdVeh";
-            this.txtIdVeh.Size = new System.Drawing.Size(57, 27);
-            this.txtIdVeh.TabIndex = 50;
-            // 
-            // btnAbrirPcb
-            // 
-            this.btnAbrirPcb.BackColor = System.Drawing.Color.Gray;
-            this.btnAbrirPcb.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAbrirPcb.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnAbrirPcb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAbrirPcb.ForeColor = System.Drawing.Color.White;
-            this.btnAbrirPcb.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.btnAbrirPcb.IconColor = System.Drawing.Color.Black;
-            this.btnAbrirPcb.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnAbrirPcb.Location = new System.Drawing.Point(33, 442);
-            this.btnAbrirPcb.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnAbrirPcb.Name = "btnAbrirPcb";
-            this.btnAbrirPcb.Size = new System.Drawing.Size(262, 31);
-            this.btnAbrirPcb.TabIndex = 50;
-            this.btnAbrirPcb.Text = "Cargar Imagen";
-            this.btnAbrirPcb.UseVisualStyleBackColor = false;
-            this.btnAbrirPcb.Click += new System.EventHandler(this.btnAbrirPcb_Click);
-            // 
-            // pcbImagen
-            // 
-            this.pcbImagen.Location = new System.Drawing.Point(33, 480);
-            this.pcbImagen.Name = "pcbImagen";
-            this.pcbImagen.Size = new System.Drawing.Size(261, 174);
-            this.pcbImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pcbImagen.TabIndex = 0;
-            this.pcbImagen.TabStop = false;
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // btnSeleccionar
             // 
@@ -520,12 +451,74 @@
             this.Id_Mar_veh.Visible = false;
             this.Id_Mar_veh.Width = 125;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(29, 303);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(47, 15);
+            this.label7.TabIndex = 48;
+            this.label7.Text = "Imagen";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.txtIdVeh);
+            this.panel1.Controls.Add(this.btnAbrirPcb);
+            this.panel1.Controls.Add(this.pcbImagen);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(288, 601);
+            this.panel1.TabIndex = 49;
+            // 
+            // txtIdVeh
+            // 
+            this.txtIdVeh.Location = new System.Drawing.Point(207, 60);
+            this.txtIdVeh.Name = "txtIdVeh";
+            this.txtIdVeh.Size = new System.Drawing.Size(50, 23);
+            this.txtIdVeh.TabIndex = 50;
+            this.txtIdVeh.Visible = false;
+            // 
+            // btnAbrirPcb
+            // 
+            this.btnAbrirPcb.BackColor = System.Drawing.Color.Gray;
+            this.btnAbrirPcb.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAbrirPcb.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btnAbrirPcb.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAbrirPcb.ForeColor = System.Drawing.Color.White;
+            this.btnAbrirPcb.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.btnAbrirPcb.IconColor = System.Drawing.Color.Black;
+            this.btnAbrirPcb.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnAbrirPcb.Location = new System.Drawing.Point(29, 332);
+            this.btnAbrirPcb.Name = "btnAbrirPcb";
+            this.btnAbrirPcb.Size = new System.Drawing.Size(229, 23);
+            this.btnAbrirPcb.TabIndex = 50;
+            this.btnAbrirPcb.Text = "Cargar Imagen";
+            this.btnAbrirPcb.UseVisualStyleBackColor = false;
+            this.btnAbrirPcb.Click += new System.EventHandler(this.btnAbrirPcb_Click);
+            // 
+            // pcbImagen
+            // 
+            this.pcbImagen.Location = new System.Drawing.Point(29, 360);
+            this.pcbImagen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pcbImagen.Name = "pcbImagen";
+            this.pcbImagen.Size = new System.Drawing.Size(228, 130);
+            this.pcbImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbImagen.TabIndex = 0;
+            this.pcbImagen.TabStop = false;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // frmVehiculo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1544, 801);
+            this.ClientSize = new System.Drawing.Size(1351, 601);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.dtgDatos);
             this.Controls.Add(this.btnLimpiar);
@@ -549,7 +542,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmVehiculo";
             this.Text = "frmVehiculo";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

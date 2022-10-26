@@ -40,6 +40,8 @@
             this.menuTitle = new System.Windows.Forms.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
             this.contenedor = new System.Windows.Forms.Panel();
+            this.lblUsuario = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,10 +59,9 @@
             this.menuEspecies,
             this.menuConsultas,
             this.menuConfiguracion});
-            this.menu.Location = new System.Drawing.Point(0, 96);
+            this.menu.Location = new System.Drawing.Point(0, 72);
             this.menu.Name = "menu";
-            this.menu.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
-            this.menu.Size = new System.Drawing.Size(809, 75);
+            this.menu.Size = new System.Drawing.Size(808, 73);
             this.menu.TabIndex = 0;
             this.menu.Text = "menuStrip1";
             // 
@@ -179,9 +180,8 @@
             this.menuTitle.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuTitle.Location = new System.Drawing.Point(0, 0);
             this.menuTitle.Name = "menuTitle";
-            this.menuTitle.Padding = new System.Windows.Forms.Padding(7, 3, 0, 3);
             this.menuTitle.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuTitle.Size = new System.Drawing.Size(1381, 96);
+            this.menuTitle.Size = new System.Drawing.Size(1208, 72);
             this.menuTitle.TabIndex = 1;
             this.menuTitle.Text = "menuStrip2";
             // 
@@ -191,37 +191,63 @@
             this.label1.BackColor = System.Drawing.Color.DarkGreen;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(23, 27);
+            this.label1.Location = new System.Drawing.Point(20, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(875, 46);
+            this.label1.Size = new System.Drawing.Size(696, 37);
             this.label1.TabIndex = 2;
             this.label1.Text = "Sistema de Consultas y Gestión de Documentos Policiales";
             // 
             // contenedor
             // 
-            this.contenedor.Location = new System.Drawing.Point(0, 193);
-            this.contenedor.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.contenedor.Location = new System.Drawing.Point(0, 145);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(1381, 909);
+            this.contenedor.Size = new System.Drawing.Size(1208, 847);
             this.contenedor.TabIndex = 3;
             this.contenedor.Scroll += new System.Windows.Forms.ScrollEventHandler(this.contenedor_Scroll);
             // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.BackColor = System.Drawing.Color.DarkGreen;
+            this.lblUsuario.ForeColor = System.Drawing.Color.White;
+            this.lblUsuario.Location = new System.Drawing.Point(950, 32);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(38, 15);
+            this.lblUsuario.TabIndex = 0;
+            this.lblUsuario.Text = "label2";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.DarkGreen;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(950, 10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(103, 21);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "BIENVENIDO:";
+            // 
             // Inicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1381, 1103);
+            this.ClientSize = new System.Drawing.Size(1208, 808);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.contenedor);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.menuTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Principal";
+            this.Load += new System.EventHandler(this.Inicio_Load);
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
             this.ResumeLayout(false);
@@ -243,5 +269,7 @@
         private MenuStrip menuTitle;
         private Label label1;
         private Panel contenedor;
+        private Label lblUsuario;
+        private Label label2;
     }
 }

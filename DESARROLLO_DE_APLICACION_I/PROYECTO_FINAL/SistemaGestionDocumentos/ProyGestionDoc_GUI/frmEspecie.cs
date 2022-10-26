@@ -51,6 +51,21 @@ namespace ProyGestionDoc_GUI
                 cboEstadoEspecie.ValueMember = "Valor";
                 cboEstadoEspecie.SelectedIndex = 0;
 
+
+                //Cargamos los combos para los filtros
+                foreach (DataGridViewColumn columna in dtgDatos.Columns)
+                {
+                    if (columna.Visible == true && columna.Name != "btnSeleccionar")
+                    {
+                        cboBusqueda.Items.Add(new OpcionCombo() { Valor = columna.Name, Texto = columna.HeaderText });
+                    }
+                }
+
+                cboBusqueda.SelectedIndex = 0;
+                cboBusqueda.DisplayMember = "Texto";
+                cboBusqueda.ValueMember = "Valor";
+
+
                 //Cargamos los datos al DataGridView
                 dtgDatos.AutoGenerateColumns = false;
                 CargarDatos("");
@@ -77,13 +92,12 @@ namespace ProyGestionDoc_GUI
                 objEspecieBE.Color = txtColorEspecie.Text;
                 objEspecieBE.Can_espec = Convert.ToInt16(txtCantidadEspecie.Text);
                 objEspecieBE.Nro_serie = txtSerieEspecie.Text;
-                //Por ahora ponemos en duro el usu_registro
-                objEspecieBE.Usu_reg = "31999873";
+                objEspecieBE.Usu_reg = clsCredenciales.Password;
                 objEspecieBE.Est_espec = Convert.ToInt16(((OpcionCombo)cboEstadoEspecie.SelectedItem).Valor.ToString());
                 objEspecieBE.Id_tip_espec = Convert.ToInt16(cboTipoEspecie.SelectedValue);
 
-           
-                //Invocamos al metodo insertarEspcie
+
+                //Invocamos al metodo InsertarEspecie
 
                 if (objEspecieBL.InsertarEspecie(objEspecieBE) == true)
                 {
@@ -258,13 +272,11 @@ namespace ProyGestionDoc_GUI
                 objEspecieBE.Color = txtColorEspecie.Text;
                 objEspecieBE.Can_espec = Convert.ToInt16(txtCantidadEspecie.Text);
                 objEspecieBE.Nro_serie = txtSerieEspecie.Text;
-                //Por ahora ponemos en duro el usu_registro
-                //objEspecieBE.Usu_reg = "31999873";
                 objEspecieBE.Est_espec = Convert.ToInt16(((OpcionCombo)cboEstadoEspecie.SelectedItem).Valor.ToString());
                 objEspecieBE.Id_tip_espec = Convert.ToInt16(cboTipoEspecie.SelectedValue);
 
 
-                //Invocamos al metodo actualizarEspecie
+                //Invocamos al metodo ActualizarEspecie
 
                 if (objEspecieBL.ActualizarEspecie(objEspecieBE) == true)
                 {
@@ -280,6 +292,52 @@ namespace ProyGestionDoc_GUI
             catch (Exception ex)
             {
                 MessageBox.Show("Error : " + ex.Message);
+            }
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                String columnaFiltro = ((OpcionCombo)cboBusqueda.SelectedItem).Valor.ToString();
+                dtgDatos.CurrentCell = null;
+                if (dtgDatos.Rows.Count > 0)
+                {
+                    foreach (DataGridViewRow row in dtgDatos.Rows)
+                    {
+                        if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(txtBusqueda.Text.Trim().ToUpper()))
+                        {
+                            row.Visible = true;
+                        }
+                        else
+                        {
+                            row.Visible = false;
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txtBusqueda.Text = "";
+                foreach (DataGridViewRow row in dtgDatos.Rows)
+                {
+                    row.Visible = true;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
             }
         }
     }

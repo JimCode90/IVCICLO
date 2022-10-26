@@ -101,17 +101,15 @@
             this.panel1.Controls.Add(this.txtIdEspecie);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(329, 801);
+            this.panel1.Size = new System.Drawing.Size(288, 601);
             this.panel1.TabIndex = 50;
             // 
             // txtMarcaEspecie
             // 
-            this.txtMarcaEspecie.Location = new System.Drawing.Point(35, 291);
-            this.txtMarcaEspecie.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtMarcaEspecie.Location = new System.Drawing.Point(31, 218);
             this.txtMarcaEspecie.Name = "txtMarcaEspecie";
-            this.txtMarcaEspecie.Size = new System.Drawing.Size(261, 27);
+            this.txtMarcaEspecie.Size = new System.Drawing.Size(229, 23);
             this.txtMarcaEspecie.TabIndex = 71;
             // 
             // btnEliminar
@@ -124,10 +122,9 @@
             this.btnEliminar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnEliminar.IconColor = System.Drawing.Color.Black;
             this.btnEliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnEliminar.Location = new System.Drawing.Point(34, 694);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEliminar.Location = new System.Drawing.Point(30, 520);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(262, 31);
+            this.btnEliminar.Size = new System.Drawing.Size(229, 23);
             this.btnEliminar.TabIndex = 70;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -142,10 +139,9 @@
             this.btnEditar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnEditar.IconColor = System.Drawing.Color.Black;
             this.btnEditar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnEditar.Location = new System.Drawing.Point(34, 655);
-            this.btnEditar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnEditar.Location = new System.Drawing.Point(30, 491);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(262, 31);
+            this.btnEditar.Size = new System.Drawing.Size(229, 23);
             this.btnEditar.TabIndex = 69;
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = false;
@@ -161,10 +157,9 @@
             this.btnRegistrar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnRegistrar.IconColor = System.Drawing.Color.Black;
             this.btnRegistrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnRegistrar.Location = new System.Drawing.Point(34, 616);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnRegistrar.Location = new System.Drawing.Point(30, 462);
             this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(262, 31);
+            this.btnRegistrar.Size = new System.Drawing.Size(229, 23);
             this.btnRegistrar.TabIndex = 68;
             this.btnRegistrar.Text = "Registrar";
             this.btnRegistrar.UseVisualStyleBackColor = false;
@@ -174,91 +169,86 @@
             // 
             this.cboEstadoEspecie.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboEstadoEspecie.FormattingEnabled = true;
-            this.cboEstadoEspecie.Location = new System.Drawing.Point(34, 569);
-            this.cboEstadoEspecie.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cboEstadoEspecie.Location = new System.Drawing.Point(30, 427);
             this.cboEstadoEspecie.Name = "cboEstadoEspecie";
-            this.cboEstadoEspecie.Size = new System.Drawing.Size(261, 28);
+            this.cboEstadoEspecie.Size = new System.Drawing.Size(229, 23);
             this.cboEstadoEspecie.TabIndex = 67;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(34, 545);
+            this.label8.Location = new System.Drawing.Point(30, 409);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(54, 20);
+            this.label8.Size = new System.Drawing.Size(42, 15);
             this.label8.TabIndex = 66;
             this.label8.Text = "Estado";
             // 
             // txtSerieEspecie
             // 
-            this.txtSerieEspecie.Location = new System.Drawing.Point(34, 513);
-            this.txtSerieEspecie.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSerieEspecie.Location = new System.Drawing.Point(30, 385);
             this.txtSerieEspecie.Name = "txtSerieEspecie";
-            this.txtSerieEspecie.Size = new System.Drawing.Size(261, 27);
+            this.txtSerieEspecie.Size = new System.Drawing.Size(229, 23);
             this.txtSerieEspecie.TabIndex = 65;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(34, 489);
+            this.label7.Location = new System.Drawing.Point(30, 367);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 20);
+            this.label7.Size = new System.Drawing.Size(78, 15);
             this.label7.TabIndex = 64;
             this.label7.Text = "Número serie";
             // 
             // txtCantidadEspecie
             // 
-            this.txtCantidadEspecie.Location = new System.Drawing.Point(34, 458);
-            this.txtCantidadEspecie.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtCantidadEspecie.Location = new System.Drawing.Point(30, 344);
             this.txtCantidadEspecie.Name = "txtCantidadEspecie";
-            this.txtCantidadEspecie.Size = new System.Drawing.Size(261, 27);
+            this.txtCantidadEspecie.Size = new System.Drawing.Size(229, 23);
             this.txtCantidadEspecie.TabIndex = 63;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(34, 434);
+            this.label6.Location = new System.Drawing.Point(30, 326);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 20);
+            this.label6.Size = new System.Drawing.Size(55, 15);
             this.label6.TabIndex = 62;
             this.label6.Text = "Cantidad";
             // 
             // txtColorEspecie
             // 
-            this.txtColorEspecie.Location = new System.Drawing.Point(34, 404);
-            this.txtColorEspecie.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtColorEspecie.Location = new System.Drawing.Point(30, 303);
             this.txtColorEspecie.Name = "txtColorEspecie";
-            this.txtColorEspecie.Size = new System.Drawing.Size(261, 27);
+            this.txtColorEspecie.Size = new System.Drawing.Size(229, 23);
             this.txtColorEspecie.TabIndex = 61;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(34, 380);
+            this.label5.Location = new System.Drawing.Point(30, 285);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 20);
+            this.label5.Size = new System.Drawing.Size(36, 15);
             this.label5.TabIndex = 60;
             this.label5.Text = "Color";
             // 
             // txtModeloEspecie
             // 
-            this.txtModeloEspecie.Location = new System.Drawing.Point(34, 346);
-            this.txtModeloEspecie.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtModeloEspecie.Location = new System.Drawing.Point(30, 260);
             this.txtModeloEspecie.Name = "txtModeloEspecie";
-            this.txtModeloEspecie.Size = new System.Drawing.Size(261, 27);
+            this.txtModeloEspecie.Size = new System.Drawing.Size(229, 23);
             this.txtModeloEspecie.TabIndex = 59;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(34, 322);
+            this.label3.Location = new System.Drawing.Point(30, 242);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 20);
+            this.label3.Size = new System.Drawing.Size(48, 15);
             this.label3.TabIndex = 58;
             this.label3.Text = "Modelo";
             // 
@@ -266,27 +256,26 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(34, 264);
+            this.label2.Location = new System.Drawing.Point(30, 198);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 20);
+            this.label2.Size = new System.Drawing.Size(40, 15);
             this.label2.TabIndex = 56;
             this.label2.Text = "Marca";
             // 
             // txtDescEspecie
             // 
-            this.txtDescEspecie.Location = new System.Drawing.Point(34, 229);
-            this.txtDescEspecie.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtDescEspecie.Location = new System.Drawing.Point(30, 172);
             this.txtDescEspecie.Name = "txtDescEspecie";
-            this.txtDescEspecie.Size = new System.Drawing.Size(261, 27);
+            this.txtDescEspecie.Size = new System.Drawing.Size(229, 23);
             this.txtDescEspecie.TabIndex = 55;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(34, 205);
+            this.label1.Location = new System.Drawing.Point(30, 154);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 20);
+            this.label1.Size = new System.Drawing.Size(69, 15);
             this.label1.TabIndex = 54;
             this.label1.Text = "Descripción";
             // 
@@ -294,19 +283,18 @@
             // 
             this.cboTipoEspecie.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTipoEspecie.FormattingEnabled = true;
-            this.cboTipoEspecie.Location = new System.Drawing.Point(34, 168);
-            this.cboTipoEspecie.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cboTipoEspecie.Location = new System.Drawing.Point(30, 126);
             this.cboTipoEspecie.Name = "cboTipoEspecie";
-            this.cboTipoEspecie.Size = new System.Drawing.Size(261, 28);
+            this.cboTipoEspecie.Size = new System.Drawing.Size(229, 23);
             this.cboTipoEspecie.TabIndex = 53;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(34, 144);
+            this.label4.Location = new System.Drawing.Point(30, 108);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 20);
+            this.label4.Size = new System.Drawing.Size(30, 15);
             this.label4.TabIndex = 52;
             this.label4.Text = "Tipo";
             // 
@@ -315,18 +303,17 @@
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.White;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label13.Location = new System.Drawing.Point(49, 59);
+            this.label13.Location = new System.Drawing.Point(43, 44);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(233, 35);
+            this.label13.Size = new System.Drawing.Size(189, 28);
             this.label13.TabIndex = 51;
             this.label13.Text = "DATOS DE ESPECIE";
             // 
             // txtIdEspecie
             // 
-            this.txtIdEspecie.Location = new System.Drawing.Point(238, 108);
-            this.txtIdEspecie.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtIdEspecie.Location = new System.Drawing.Point(208, 81);
             this.txtIdEspecie.Name = "txtIdEspecie";
-            this.txtIdEspecie.Size = new System.Drawing.Size(57, 27);
+            this.txtIdEspecie.Size = new System.Drawing.Size(50, 23);
             this.txtIdEspecie.TabIndex = 50;
             // 
             // btnLimpiar
@@ -340,12 +327,12 @@
             this.btnLimpiar.IconColor = System.Drawing.Color.White;
             this.btnLimpiar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiar.IconSize = 16;
-            this.btnLimpiar.Location = new System.Drawing.Point(1295, 65);
-            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnLimpiar.Location = new System.Drawing.Point(1133, 49);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(55, 31);
+            this.btnLimpiar.Size = new System.Drawing.Size(48, 23);
             this.btnLimpiar.TabIndex = 56;
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnBuscar
             // 
@@ -358,38 +345,36 @@
             this.btnBuscar.IconColor = System.Drawing.Color.White;
             this.btnBuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnBuscar.IconSize = 16;
-            this.btnBuscar.Location = new System.Drawing.Point(1233, 65);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnBuscar.Location = new System.Drawing.Point(1079, 49);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(54, 31);
+            this.btnBuscar.Size = new System.Drawing.Size(47, 23);
             this.btnBuscar.TabIndex = 55;
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // txtBusqueda
             // 
-            this.txtBusqueda.Location = new System.Drawing.Point(975, 65);
-            this.txtBusqueda.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtBusqueda.Location = new System.Drawing.Point(853, 49);
             this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(252, 27);
+            this.txtBusqueda.Size = new System.Drawing.Size(221, 23);
             this.txtBusqueda.TabIndex = 54;
             // 
             // cboBusqueda
             // 
             this.cboBusqueda.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBusqueda.FormattingEnabled = true;
-            this.cboBusqueda.Location = new System.Drawing.Point(815, 65);
-            this.cboBusqueda.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.cboBusqueda.Location = new System.Drawing.Point(713, 49);
             this.cboBusqueda.Name = "cboBusqueda";
-            this.cboBusqueda.Size = new System.Drawing.Size(153, 28);
+            this.cboBusqueda.Size = new System.Drawing.Size(134, 23);
             this.cboBusqueda.TabIndex = 53;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.White;
-            this.label15.Location = new System.Drawing.Point(731, 69);
+            this.label15.Location = new System.Drawing.Point(640, 52);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(82, 20);
+            this.label15.Size = new System.Drawing.Size(66, 15);
             this.label15.TabIndex = 52;
             this.label15.Text = "Buscar por:";
             // 
@@ -397,9 +382,9 @@
             // 
             this.label14.BackColor = System.Drawing.Color.White;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(363, 38);
+            this.label14.Location = new System.Drawing.Point(318, 28);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(997, 76);
+            this.label14.Size = new System.Drawing.Size(872, 57);
             this.label14.TabIndex = 51;
             this.label14.Text = "LISTA DE ESPECIES";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -430,7 +415,8 @@
             this.Estado,
             this.Est_espec,
             this.Id_tip_espec});
-            this.dtgDatos.Location = new System.Drawing.Point(363, 157);
+            this.dtgDatos.Location = new System.Drawing.Point(318, 118);
+            this.dtgDatos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtgDatos.MultiSelect = false;
             this.dtgDatos.Name = "dtgDatos";
             this.dtgDatos.ReadOnly = true;
@@ -444,7 +430,7 @@
             this.dtgDatos.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dtgDatos.RowHeadersWidth = 51;
             this.dtgDatos.RowTemplate.Height = 28;
-            this.dtgDatos.Size = new System.Drawing.Size(997, 440);
+            this.dtgDatos.Size = new System.Drawing.Size(872, 330);
             this.dtgDatos.TabIndex = 57;
             this.dtgDatos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgDatos_CellContentClick);
             this.dtgDatos.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dtgDatos_CellPainting);
@@ -561,9 +547,9 @@
             // 
             // frmEspecie
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1544, 801);
+            this.ClientSize = new System.Drawing.Size(1351, 601);
             this.Controls.Add(this.dtgDatos);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnBuscar);
@@ -572,7 +558,6 @@
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmEspecie";
             this.Text = "frmEspecie";
             this.Load += new System.EventHandler(this.frmEspecie_Load);

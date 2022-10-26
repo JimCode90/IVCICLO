@@ -9,6 +9,7 @@ namespace ProyGestionDoc_BE
     public class UsuarioBE
     {
         public String Cip_usu { get; set; }
+        public String Pass_usu { get; set; }
         public Int16 Id_Gra { get; set; }
         public String Nom_usu { get; set; }
         public String Ape_usu { get; set; }

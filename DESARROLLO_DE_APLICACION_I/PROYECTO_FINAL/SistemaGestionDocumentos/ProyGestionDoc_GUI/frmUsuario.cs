@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Media;
 
 //agregar
 using ProyGestionDoc_BE;
@@ -34,69 +35,84 @@ namespace ProyGestionDoc_GUI
 
         private void frmUsuario_Load(object sender, EventArgs e)
         {
-           
-            //Cargamos los combos
-            DataTable dt = objTipoGradoBL.ListarGrado();
-            DataRow dr;
-            dr = dt.NewRow();
-            dr["Id_Gra"] = 0;
-            dr["Opc_Gra"] = "--Seleccione--";
-            dt.Rows.InsertAt(dr, 0);
-            cboGrado.DataSource = dt;
-            cboGrado.DisplayMember = "Opc_Gra";
-            cboGrado.ValueMember = "Id_Gra";
 
-            dt = objUnidadBL.ListarUnidad();
-            dr = dt.NewRow();
-            dr["Id_Uni"] = 0;
-            dr["Opc_Uni"] = "--Seleccione--";
-            dt.Rows.InsertAt(dr, 0);
-            cboUnidad.DataSource = dt;
-            cboUnidad.DisplayMember = "Opc_Uni";
-            cboUnidad.ValueMember = "Id_Uni";
+            try
+            {
+                //Cargamos los combos
+                DataTable dt = objTipoGradoBL.ListarGrado();
+                DataRow dr;
+                dr = dt.NewRow();
+                dr["Id_Gra"] = 0;
+                dr["Opc_Gra"] = "--Seleccione--";
+                dt.Rows.InsertAt(dr, 0);
+                cboGrado.DataSource = dt;
+                cboGrado.DisplayMember = "Opc_Gra";
+                cboGrado.ValueMember = "Id_Gra";
 
-            cboEstado.Items.Add(new OpcionCombo() { Valor = 0 , Texto = "--Seleccione--" });
-            cboEstado.Items.Add(new OpcionCombo() { Valor = 1 , Texto = "Activo"});
-            cboEstado.Items.Add(new OpcionCombo() { Valor = 2 , Texto = "No Activo"});
-            cboEstado.DisplayMember = "Texto";
-            cboEstado.ValueMember = "Valor";
-            cboEstado.SelectedIndex = 0;
+                dt = objUnidadBL.ListarUnidad();
+                dr = dt.NewRow();
+                dr["Id_Uni"] = 0;
+                dr["Opc_Uni"] = "--Seleccione--";
+                dt.Rows.InsertAt(dr, 0);
+                cboUnidad.DataSource = dt;
+                cboUnidad.DisplayMember = "Opc_Uni";
+                cboUnidad.ValueMember = "Id_Uni";
 
-            cboRol.Items.Add(new OpcionCombo() { Valor = 0 , Texto = "--Seleccione--" });
-            cboRol.Items.Add(new OpcionCombo() { Valor = 1 , Texto = "Administrador"});
-            cboRol.Items.Add(new OpcionCombo() { Valor = 2 , Texto = "Comisario"});
-            cboRol.Items.Add(new OpcionCombo() { Valor = 3 , Texto = "Instructor"});
-            cboRol.DisplayMember = "Texto";
-            cboRol.ValueMember = "Valor";
-            cboRol.SelectedIndex = 0;
+                cboEstado.Items.Add(new OpcionCombo() { Valor = 0, Texto = "--Seleccione--" });
+                cboEstado.Items.Add(new OpcionCombo() { Valor = 1, Texto = "Activo" });
+                cboEstado.Items.Add(new OpcionCombo() { Valor = 2, Texto = "No Activo" });
+                cboEstado.DisplayMember = "Texto";
+                cboEstado.ValueMember = "Valor";
+                cboEstado.SelectedIndex = 0;
+
+                cboRol.Items.Add(new OpcionCombo() { Valor = 0, Texto = "--Seleccione--" });
+                cboRol.Items.Add(new OpcionCombo() { Valor = 1, Texto = "Administrador" });
+                cboRol.Items.Add(new OpcionCombo() { Valor = 2, Texto = "Comisario" });
+                cboRol.Items.Add(new OpcionCombo() { Valor = 3, Texto = "Instructor" });
+                cboRol.DisplayMember = "Texto";
+                cboRol.ValueMember = "Valor";
+                cboRol.SelectedIndex = 0;
 
 
 
-            foreach (DataGridViewColumn columna in dtgDatos.Columns) {
-                if (columna.Visible == true && columna.Name != "btnSeleccionar")
+                foreach (DataGridViewColumn columna in dtgDatos.Columns)
                 {
-                    cboBusqueda.Items.Add(new OpcionCombo() { Valor = columna.Name, Texto = columna.HeaderText});
+                    if (columna.Visible == true && columna.Name != "btnSeleccionar")
+                    {
+                        cboBusqueda.Items.Add(new OpcionCombo() { Valor = columna.Name, Texto = columna.HeaderText });
+                    }
                 }
+
+                cboBusqueda.SelectedIndex = 0;
+                cboBusqueda.DisplayMember = "Texto";
+                cboBusqueda.ValueMember = "Valor";
+
+
+                dtgDatos.AutoGenerateColumns = false;
+                CargarDatos("");
+
             }
+            catch (Exception ex)
+            {
 
-            cboBusqueda.SelectedIndex = 0;
-            cboBusqueda.DisplayMember = "Texto";
-            cboBusqueda.ValueMember = "Valor";
-
-
-            dtgDatos.AutoGenerateColumns = false;
-            CargarDatos("");
-
-
-
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            
         }
 
         private void CargarDatos(String strFiltro) {
+            try
+            {
+                dtv = new DataView(objUsuarioBL.ListarUsuario());
+                dtv.RowFilter = "Nom_usu like '%" + strFiltro + "%'";
+                dtgDatos.DataSource = dtv;
+                //lblRegistros.Text = dtgDatos.Rows.Count.ToString();
+            }
+            catch (Exception ex)
+            {
 
-            dtv = new DataView(objUsuarioBL.ListarUsuario());
-            dtv.RowFilter = "Nom_usu like '%" + strFiltro + "%'";
-            dtgDatos.DataSource = dtv;
-            //lblRegistros.Text = dtgDatos.Rows.Count.ToString();
+                MessageBox.Show("Error: " + ex.Message);
+            }
 
         }
 
@@ -108,7 +124,8 @@ namespace ProyGestionDoc_GUI
                 //Validamos...
                 validarDatos();
 
-                //Si todo esta ok, procedemos a asignar las propiedades a la instancia objProductoBE
+                //Si todo esta ok, procedemos a asignar las propiedades a la instancia objUsuarioBE
+                objUsuarioBE.Pass_usu = txtPassword.Text;
                 objUsuarioBE.Cip_usu = txtNroCarnet.Text;
                 objUsuarioBE.Dni_usu = txtNroDni.Text;
                 objUsuarioBE.Nom_usu = txtNombres.Text;
@@ -120,11 +137,9 @@ namespace ProyGestionDoc_GUI
                 objUsuarioBE.Id_Gra = Convert.ToInt16(cboGrado.SelectedValue);
                 objUsuarioBE.Id_Uni = Convert.ToInt16(cboUnidad.SelectedValue);
 
-                //Por ahora ponemos en duro el usu_registro
-                //objUsuarioBE.Usu_Registro = "jleon";
 
-                //Invocamos al metodo insertarProducto
-            
+                //Invocamos al metodo InsertarUsuario
+
                 if (objUsuarioBL.InsertarUsuario(objUsuarioBE) == true)
                 {
 
@@ -152,8 +167,9 @@ namespace ProyGestionDoc_GUI
                 //Validamos...
                 validarDatos();
 
-                //Si todo esta ok, procedemos a asignar las propiedades a la instancia objProductoBE
+                //Si todo esta ok, procedemos a asignar las propiedades a la instancia objUsuarioBE
                 objUsuarioBE.Cip_usu = txtNroCarnet.Text;
+                objUsuarioBE.Pass_usu = txtPassword.Text;
                 objUsuarioBE.Dni_usu = txtNroDni.Text;
                 objUsuarioBE.Nom_usu = txtNombres.Text;
                 objUsuarioBE.Ape_usu = txtApellidos.Text;
@@ -164,10 +180,9 @@ namespace ProyGestionDoc_GUI
                 objUsuarioBE.Id_Gra = Convert.ToInt16(cboGrado.SelectedValue);
                 objUsuarioBE.Id_Uni = Convert.ToInt16(cboUnidad.SelectedValue);
 
-                //Por ahora ponemos en duro el usu_registro
-                //objUsuarioBE.Usu_Registro = "jleon";
+              
 
-                //Invocamos al metodo insertarProducto
+                //Invocamos al metodo ActualizarUsuario
 
                 if (objUsuarioBL.ActualizarUsuario(objUsuarioBE) == true)
                 {
@@ -191,44 +206,55 @@ namespace ProyGestionDoc_GUI
 
         private void dtgDatos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dtgDatos.Columns[e.ColumnIndex].Name == "btnSeleccionar")
+            try
             {
-
-                int indice = e.RowIndex;
-                if (indice >= 0)
+                if (dtgDatos.Columns[e.ColumnIndex].Name == "btnSeleccionar")
                 {
-                    cboGrado.SelectedValue = dtgDatos.Rows[indice].Cells["Id_Gra"].Value.ToString();
-                    cboUnidad.SelectedValue = dtgDatos.Rows[indice].Cells["Id_Uni"].Value.ToString();
-                    //Para rol y estado es distinta la logica
-                    foreach (OpcionCombo oc in cboEstado.Items) { 
-                        if(Convert.ToInt16(oc.Valor) == Convert.ToInt16(dtgDatos.Rows[indice].Cells["Est_usu"].Value))
-                        {
-                            int indice_combo = cboEstado.Items.IndexOf(oc);
-                            cboEstado.SelectedIndex = indice_combo;
-                        }
-                    }
 
-                    foreach (OpcionCombo oc in cboRol.Items)
+                    int indice = e.RowIndex;
+                    if (indice >= 0)
                     {
-                        if (Convert.ToInt16(oc.Valor) == Convert.ToInt16(dtgDatos.Rows[indice].Cells["Rol_usu"].Value))
+                        cboGrado.SelectedValue = dtgDatos.Rows[indice].Cells["Id_Gra"].Value.ToString();
+                        cboUnidad.SelectedValue = dtgDatos.Rows[indice].Cells["Id_Uni"].Value.ToString();
+                        //Para rol y estado es distinta la logica
+                        foreach (OpcionCombo oc in cboEstado.Items)
                         {
-                            int indice_combo = cboRol.Items.IndexOf(oc);
-                            cboRol.SelectedIndex = indice_combo;
+                            if (Convert.ToInt16(oc.Valor) == Convert.ToInt16(dtgDatos.Rows[indice].Cells["Est_usu"].Value))
+                            {
+                                int indice_combo = cboEstado.Items.IndexOf(oc);
+                                cboEstado.SelectedIndex = indice_combo;
+                            }
                         }
+
+                        foreach (OpcionCombo oc in cboRol.Items)
+                        {
+                            if (Convert.ToInt16(oc.Valor) == Convert.ToInt16(dtgDatos.Rows[indice].Cells["Rol_usu"].Value))
+                            {
+                                int indice_combo = cboRol.Items.IndexOf(oc);
+                                cboRol.SelectedIndex = indice_combo;
+                            }
+                        }
+
+
+                        txtNombres.Text = dtgDatos.Rows[indice].Cells["Nom_usu"].Value.ToString();
+                        txtApellidos.Text = dtgDatos.Rows[indice].Cells["Ape_usu"].Value.ToString();
+                        txtNroCarnet.Text = dtgDatos.Rows[indice].Cells["Cip_usu"].Value.ToString();
+                        txtPassword.Text = dtgDatos.Rows[indice].Cells["Pass_usu"].Value.ToString();
+                        //Bloqueamos el campo del nro de cip
+                        txtNroCarnet.ReadOnly = true;
+
+                        txtNroDni.Text = dtgDatos.Rows[indice].Cells["Dni_usu"].Value.ToString();
+                        txtTelefono.Text = dtgDatos.Rows[indice].Cells["Tel_usu"].Value.ToString();
+                        txtEmail.Text = dtgDatos.Rows[indice].Cells["Email_usu"].Value.ToString();
                     }
-
-
-                    txtNombres.Text = dtgDatos.Rows[indice].Cells["Nom_usu"].Value.ToString();
-                    txtApellidos.Text = dtgDatos.Rows[indice].Cells["Ape_usu"].Value.ToString();
-                    txtNroCarnet.Text = dtgDatos.Rows[indice].Cells["Cip_usu"].Value.ToString();
-                    //Bloqueamos el campo del nro de cip
-                    txtNroCarnet.ReadOnly = true;
-                  
-                    txtNroDni.Text = dtgDatos.Rows[indice].Cells["Dni_usu"].Value.ToString();
-                    txtTelefono.Text = dtgDatos.Rows[indice].Cells["Tel_usu"].Value.ToString();
-                    txtEmail.Text = dtgDatos.Rows[indice].Cells["Email_usu"].Value.ToString();
                 }
             }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            
         }
 
 
@@ -308,39 +334,122 @@ namespace ProyGestionDoc_GUI
 
         private void dtgDatos_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
         {
-            if (e.RowIndex < 0)
-                return;
-
-            if(e.ColumnIndex == 0)
+            try
             {
-                e.Paint(e.CellBounds, DataGridViewPaintParts.All);
-                var w = Properties.Resources.check.Width - 110;
-                var h = Properties.Resources.check.Height - 110;
-                var x = e.CellBounds.Left + (e.CellBounds.Width - w) / 2;
-                var y = e.CellBounds.Top + (e.CellBounds.Height - h) / 2;
-                e.Graphics.DrawImage(Properties.Resources.check, new Rectangle(x, y, w, h));
-                e.Handled = true;
+                if (e.RowIndex < 0)
+                    return;
+
+                if (e.ColumnIndex == 0)
+                {
+                    e.Paint(e.CellBounds, DataGridViewPaintParts.All);
+                    var w = Properties.Resources.check.Width - 110;
+                    var h = Properties.Resources.check.Height - 110;
+                    var x = e.CellBounds.Left + (e.CellBounds.Width - w) / 2;
+                    var y = e.CellBounds.Top + (e.CellBounds.Height - h) / 2;
+                    e.Graphics.DrawImage(Properties.Resources.check, new Rectangle(x, y, w, h));
+                    e.Handled = true;
+                }
             }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
+           
         }
 
-        private void label1_Resize(object sender, EventArgs e)
-        {
-            this.Refresh();
-        }
+       
 
         private void panel1_ControlAdded(object sender, ControlEventArgs e)
         {
             panelFormUsuario.ScrollControlIntoView(e.Control);
         }
 
-        private void label14_Resize(object sender, EventArgs e)
-        {
-            this.Refresh();
-        }
 
         private void frmUsuario_Resize(object sender, EventArgs e)
         {
             this.Refresh();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                DialogResult vrpta;
+                vrpta = MessageBox.Show("¿Desea eliminar al usuario?", "Mensaje", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (vrpta == DialogResult.Yes)
+                {
+
+                    if (objUsuarioBL.EliminarUsuario(txtNroCarnet.Text) == true)
+                    {
+
+                        limipiarCampos();
+                        CargarDatos("");
+
+                    }
+                    else
+                    {
+                        throw new Exception("No se elimino el registro, contacto con IT");
+                    }
+                }
+                else
+                {
+                    this.Close();
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                String columnaFiltro = ((OpcionCombo)cboBusqueda.SelectedItem).Valor.ToString();
+                dtgDatos.CurrentCell = null;
+                if (dtgDatos.Rows.Count > 0)
+                {
+                    foreach(DataGridViewRow row in dtgDatos.Rows)
+                    {
+                        if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(txtBusqueda.Text.Trim().ToUpper()))
+                        {
+                            row.Visible = true;
+                        }
+                        else
+                        {
+                            row.Visible = false;
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txtBusqueda.Text = "";
+                foreach (DataGridViewRow row in dtgDatos.Rows)
+                {
+                    row.Visible = true;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
     }
 }

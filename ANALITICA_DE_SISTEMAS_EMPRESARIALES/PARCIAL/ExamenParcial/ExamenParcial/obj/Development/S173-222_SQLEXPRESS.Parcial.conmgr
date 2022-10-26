@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="S173-222_SQLEXPRESS.Parcial"
+  DTS:DTSID="{7AFD3325-C26D-4A28-8AB3-4DB5139ECCF5}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=S173-222\SQLEXPRESS;Initial Catalog=Parcial;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-ExamenParcial-{7AFD3325-C26D-4A28-8AB3-4DB5139ECCF5}S173-222\SQLEXPRESS.Parcial;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
