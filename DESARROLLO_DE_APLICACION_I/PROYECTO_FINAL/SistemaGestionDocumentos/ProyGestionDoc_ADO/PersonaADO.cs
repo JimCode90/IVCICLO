@@ -69,7 +69,7 @@ namespace ProyGestionDoc_ADO
                     objPersonaBE.Nro_doc = dtr["Nro_doc"].ToString();
                     objPersonaBE.Nom_per = dtr["Nom_per"].ToString();
                     objPersonaBE.Ape_per = dtr["Ape_per"].ToString();
-                    objPersonaBE.Edad = dtr["Edad"].ToString();
+                    objPersonaBE.Edad = Convert.ToDateTime(dtr["Edad"].ToString());
                     objPersonaBE.Dir_per = dtr["Dir_per"].ToString();
                     objPersonaBE.Est_per = Convert.ToInt16(dtr["Est_per"]);
                     objPersonaBE.Doc_ide = Convert.ToInt16(dtr["Doc_ide"]);

@@ -91,7 +91,7 @@
             this.cboMarca.Location = new System.Drawing.Point(29, 84);
             this.cboMarca.Name = "cboMarca";
             this.cboMarca.Size = new System.Drawing.Size(229, 23);
-            this.cboMarca.TabIndex = 29;
+            this.cboMarca.TabIndex = 1;
             // 
             // label4
             // 
@@ -118,14 +118,14 @@
             this.txtModelo.Location = new System.Drawing.Point(29, 130);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(229, 23);
-            this.txtModelo.TabIndex = 31;
+            this.txtModelo.TabIndex = 2;
             // 
             // txtPlaca
             // 
             this.txtPlaca.Location = new System.Drawing.Point(29, 176);
             this.txtPlaca.Name = "txtPlaca";
             this.txtPlaca.Size = new System.Drawing.Size(229, 23);
-            this.txtPlaca.TabIndex = 33;
+            this.txtPlaca.TabIndex = 3;
             // 
             // label3
             // 
@@ -142,7 +142,7 @@
             this.txtColor.Location = new System.Drawing.Point(29, 223);
             this.txtColor.Name = "txtColor";
             this.txtColor.Size = new System.Drawing.Size(229, 23);
-            this.txtColor.TabIndex = 35;
+            this.txtColor.TabIndex = 4;
             // 
             // label5
             // 
@@ -161,7 +161,7 @@
             this.cboEstado.Location = new System.Drawing.Point(29, 270);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(229, 23);
-            this.cboEstado.TabIndex = 37;
+            this.cboEstado.TabIndex = 5;
             // 
             // label6
             // 

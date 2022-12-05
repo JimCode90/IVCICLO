@@ -11,7 +11,7 @@ namespace ProyGestionDoc_BE
         public String Nro_doc { get; set; }
         public String Nom_per { get; set; }
         public String Ape_per { get; set; }
-        public String Edad { get; set; }
+        public DateTime Edad { get; set; }
         public String Dir_per { get; set; }
         public DateTime Fec_reg { get; set; }
 

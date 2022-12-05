@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -178,14 +178,14 @@
             this.txtApellidos.Location = new System.Drawing.Point(29, 159);
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(229, 23);
-            this.txtApellidos.TabIndex = 11;
+            this.txtApellidos.TabIndex = 3;
             // 
             // txtNombres
             // 
             this.txtNombres.Location = new System.Drawing.Point(29, 107);
             this.txtNombres.Name = "txtNombres";
             this.txtNombres.Size = new System.Drawing.Size(229, 23);
-            this.txtNombres.TabIndex = 12;
+            this.txtNombres.TabIndex = 2;
             // 
             // label5
             // 
@@ -204,44 +204,45 @@
             this.cboGrado.Location = new System.Drawing.Point(29, 57);
             this.cboGrado.Name = "cboGrado";
             this.cboGrado.Size = new System.Drawing.Size(229, 23);
-            this.cboGrado.TabIndex = 13;
+            this.cboGrado.TabIndex = 1;
             // 
             // txtNroCarnet
             // 
             this.txtNroCarnet.Location = new System.Drawing.Point(29, 207);
             this.txtNroCarnet.Name = "txtNroCarnet";
             this.txtNroCarnet.Size = new System.Drawing.Size(229, 23);
-            this.txtNroCarnet.TabIndex = 14;
+            this.txtNroCarnet.TabIndex = 4;
             // 
             // txtNroDni
             // 
             this.txtNroDni.Location = new System.Drawing.Point(29, 254);
             this.txtNroDni.Name = "txtNroDni";
             this.txtNroDni.Size = new System.Drawing.Size(229, 23);
-            this.txtNroDni.TabIndex = 15;
+            this.txtNroDni.TabIndex = 5;
             // 
             // cboUnidad
             // 
             this.cboUnidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboUnidad.FormattingEnabled = true;
+            this.cboUnidad.ItemHeight = 15;
             this.cboUnidad.Location = new System.Drawing.Point(29, 303);
             this.cboUnidad.Name = "cboUnidad";
             this.cboUnidad.Size = new System.Drawing.Size(229, 23);
-            this.cboUnidad.TabIndex = 16;
+            this.cboUnidad.TabIndex = 6;
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(29, 351);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(229, 23);
-            this.txtEmail.TabIndex = 17;
+            this.txtEmail.TabIndex = 7;
             // 
             // txtTelefono
             // 
             this.txtTelefono.Location = new System.Drawing.Point(29, 397);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(229, 23);
-            this.txtTelefono.TabIndex = 18;
+            this.txtTelefono.TabIndex = 8;
             // 
             // cboRol
             // 
@@ -250,7 +251,7 @@
             this.cboRol.Location = new System.Drawing.Point(29, 445);
             this.cboRol.Name = "cboRol";
             this.cboRol.Size = new System.Drawing.Size(229, 23);
-            this.cboRol.TabIndex = 19;
+            this.cboRol.TabIndex = 9;
             // 
             // txtPassword
             // 
@@ -258,7 +259,7 @@
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(229, 23);
-            this.txtPassword.TabIndex = 20;
+            this.txtPassword.TabIndex = 10;
             // 
             // cboEstado
             // 
@@ -267,7 +268,7 @@
             this.cboEstado.Location = new System.Drawing.Point(29, 542);
             this.cboEstado.Name = "cboEstado";
             this.cboEstado.Size = new System.Drawing.Size(229, 23);
-            this.cboEstado.TabIndex = 22;
+            this.cboEstado.TabIndex = 11;
             // 
             // label12
             // 
@@ -360,15 +361,15 @@
             this.dtgDatos.AllowUserToAddRows = false;
             this.dtgDatos.AllowUserToDeleteRows = false;
             this.dtgDatos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgDatos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgDatos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dtgDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgDatos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btnSeleccionar,
@@ -391,14 +392,14 @@
             this.dtgDatos.MultiSelect = false;
             this.dtgDatos.Name = "dtgDatos";
             this.dtgDatos.ReadOnly = true;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgDatos.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dtgDatos.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dtgDatos.RowHeadersVisible = false;
             this.dtgDatos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dtgDatos.RowTemplate.Height = 28;

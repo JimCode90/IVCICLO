@@ -110,7 +110,7 @@
             this.txtMarcaEspecie.Location = new System.Drawing.Point(31, 218);
             this.txtMarcaEspecie.Name = "txtMarcaEspecie";
             this.txtMarcaEspecie.Size = new System.Drawing.Size(229, 23);
-            this.txtMarcaEspecie.TabIndex = 71;
+            this.txtMarcaEspecie.TabIndex = 3;
             // 
             // btnEliminar
             // 
@@ -172,7 +172,7 @@
             this.cboEstadoEspecie.Location = new System.Drawing.Point(30, 427);
             this.cboEstadoEspecie.Name = "cboEstadoEspecie";
             this.cboEstadoEspecie.Size = new System.Drawing.Size(229, 23);
-            this.cboEstadoEspecie.TabIndex = 67;
+            this.cboEstadoEspecie.TabIndex = 8;
             // 
             // label8
             // 
@@ -189,7 +189,7 @@
             this.txtSerieEspecie.Location = new System.Drawing.Point(30, 385);
             this.txtSerieEspecie.Name = "txtSerieEspecie";
             this.txtSerieEspecie.Size = new System.Drawing.Size(229, 23);
-            this.txtSerieEspecie.TabIndex = 65;
+            this.txtSerieEspecie.TabIndex = 7;
             // 
             // label7
             // 
@@ -206,7 +206,7 @@
             this.txtCantidadEspecie.Location = new System.Drawing.Point(30, 344);
             this.txtCantidadEspecie.Name = "txtCantidadEspecie";
             this.txtCantidadEspecie.Size = new System.Drawing.Size(229, 23);
-            this.txtCantidadEspecie.TabIndex = 63;
+            this.txtCantidadEspecie.TabIndex = 6;
             // 
             // label6
             // 
@@ -223,7 +223,7 @@
             this.txtColorEspecie.Location = new System.Drawing.Point(30, 303);
             this.txtColorEspecie.Name = "txtColorEspecie";
             this.txtColorEspecie.Size = new System.Drawing.Size(229, 23);
-            this.txtColorEspecie.TabIndex = 61;
+            this.txtColorEspecie.TabIndex = 5;
             // 
             // label5
             // 
@@ -240,7 +240,7 @@
             this.txtModeloEspecie.Location = new System.Drawing.Point(30, 260);
             this.txtModeloEspecie.Name = "txtModeloEspecie";
             this.txtModeloEspecie.Size = new System.Drawing.Size(229, 23);
-            this.txtModeloEspecie.TabIndex = 59;
+            this.txtModeloEspecie.TabIndex = 4;
             // 
             // label3
             // 
@@ -267,7 +267,7 @@
             this.txtDescEspecie.Location = new System.Drawing.Point(30, 172);
             this.txtDescEspecie.Name = "txtDescEspecie";
             this.txtDescEspecie.Size = new System.Drawing.Size(229, 23);
-            this.txtDescEspecie.TabIndex = 55;
+            this.txtDescEspecie.TabIndex = 2;
             // 
             // label1
             // 
@@ -286,7 +286,7 @@
             this.cboTipoEspecie.Location = new System.Drawing.Point(30, 126);
             this.cboTipoEspecie.Name = "cboTipoEspecie";
             this.cboTipoEspecie.Size = new System.Drawing.Size(229, 23);
-            this.cboTipoEspecie.TabIndex = 53;
+            this.cboTipoEspecie.TabIndex = 1;
             // 
             // label4
             // 

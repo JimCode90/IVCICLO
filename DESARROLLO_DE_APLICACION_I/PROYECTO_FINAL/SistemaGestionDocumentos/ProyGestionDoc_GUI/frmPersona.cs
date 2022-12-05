@@ -162,12 +162,14 @@ namespace ProyGestionDoc_GUI
                 objPersonaBE.Nro_doc = txtNroDocPersona.Text;
                 objPersonaBE.Nom_per = txtNomPersona.Text;
                 objPersonaBE.Ape_per = txtApePersona.Text;
-                objPersonaBE.Edad = txtEdadPersona.Text;
+                objPersonaBE.Edad = Convert.ToDateTime(dtpEdadPersona.Value.Date.ToString("yyyy-MM-dd"));
                 objPersonaBE.Dir_per = txtDireccPersona.Text;
                 objPersonaBE.Id_Nac = Convert.ToInt16(cboNacPersona.SelectedValue);
                 objPersonaBE.Est_per = Convert.ToInt16(((OpcionCombo)cboEstadoPersona.SelectedItem).Valor.ToString());
                 objPersonaBE.Gen_per = Convert.ToInt16(((OpcionCombo)cboGeneroPersona.SelectedItem).Valor.ToString());
+
                 objPersonaBE.Tip_per = Convert.ToInt16(((OpcionCombo)cboTipoPersona.SelectedItem).Valor.ToString());
+              
                 objPersonaBE.Doc_ide = Convert.ToInt16(((OpcionCombo)cboTipoDocPersona.SelectedItem).Valor.ToString());
                 objPersonaBE.Foto = File.ReadAllBytes(openFileDialogPersona.FileName);
                 objPersonaBE.Usu_reg = clsCredenciales.Password;
@@ -212,7 +214,8 @@ namespace ProyGestionDoc_GUI
             txtNroDocPersona.Text = "";
             txtNomPersona.Text = "";
             txtApePersona.Text = "";
-            txtEdadPersona.Text = "";
+            //txtEdadPersona.Text = "";
+            dtpEdadPersona.Value = DateTime.Now;
             txtDireccPersona.Text = "";
             txtNroDocPersona.Text = "";
 
@@ -243,10 +246,10 @@ namespace ProyGestionDoc_GUI
             {
                 throw new Exception("Los apellidos es obligatorios");
             }
-            if (txtEdadPersona.Text.Trim() == "")
+            /*if (txtEdadPersona.Text.Trim() == "")
             {
                 throw new Exception("La edad es obligatorio");
-            }
+            }*/
             if (txtDireccPersona.Text.Trim() == "")
             {
                 throw new Exception("La dirección es obligatorio");
@@ -287,8 +290,9 @@ namespace ProyGestionDoc_GUI
                         //Bloqueamos el campo del nro de doc.
                         txtNroDocPersona.ReadOnly = true;
                         txtDireccPersona.Text = objPersonaBE.Dir_per.ToString();
-                        txtEdadPersona.Text = objPersonaBE.Edad.ToString();
-
+                        //dtpEdadPersona.Value = Convert.ToDateTime(objPersonaBE.Edad.ToString());
+                        dtpEdadPersona.Value = Convert.ToDateTime(objPersonaBE.Edad.ToString());
+                 
                         cboNacPersona.SelectedIndex = Convert.ToInt16(objPersonaBE.Id_Nac.ToString());
 
                         foreach (OpcionCombo oc in cboGeneroPersona.Items)
@@ -366,7 +370,7 @@ namespace ProyGestionDoc_GUI
                 objPersonaBE.Nro_doc = txtNroDocPersona.Text;
                 objPersonaBE.Nom_per = txtNomPersona.Text;
                 objPersonaBE.Ape_per = txtApePersona.Text;
-                objPersonaBE.Edad = txtEdadPersona.Text;
+                objPersonaBE.Edad = Convert.ToDateTime(dtpEdadPersona.Value.Date.ToString("yyyy-MM-dd"));
                 objPersonaBE.Dir_per = txtDireccPersona.Text;
                 objPersonaBE.Id_Nac = Convert.ToInt16(cboNacPersona.SelectedValue);
                 objPersonaBE.Est_per = Convert.ToInt16(((OpcionCombo)cboEstadoPersona.SelectedItem).Valor.ToString());
@@ -497,6 +501,20 @@ namespace ProyGestionDoc_GUI
             {
 
                 MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void cboTipoPersona_TextChanged(object sender, EventArgs e)
+        {
+            if(Convert.ToInt16(((OpcionCombo)cboTipoPersona.SelectedItem).Valor.ToString()) == 1)
+            {
+                cboNacPersona.SelectedIndex = 145;
+                cboNacPersona.Enabled = false;
+            }
+            else
+            {
+                cboNacPersona.SelectedIndex = 0;
+                cboNacPersona.Enabled = true;
             }
         }
     }

@@ -36,7 +36,6 @@
             this.menuArmamentos = new FontAwesome.Sharp.IconMenuItem();
             this.menuEspecies = new FontAwesome.Sharp.IconMenuItem();
             this.menuConsultas = new FontAwesome.Sharp.IconMenuItem();
-            this.menuConfiguracion = new FontAwesome.Sharp.IconMenuItem();
             this.menuTitle = new System.Windows.Forms.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
             this.contenedor = new System.Windows.Forms.Panel();
@@ -52,16 +51,15 @@
             this.menu.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuUsuarios,
-            this.menuDocumentos,
             this.menuPersonas,
             this.menuVehiculos,
-            this.menuArmamentos,
             this.menuEspecies,
-            this.menuConsultas,
-            this.menuConfiguracion});
+            this.menuDocumentos,
+            this.menuArmamentos,
+            this.menuConsultas});
             this.menu.Location = new System.Drawing.Point(0, 72);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(808, 73);
+            this.menu.Size = new System.Drawing.Size(708, 73);
             this.menu.TabIndex = 0;
             this.menu.Text = "menuStrip1";
             // 
@@ -160,19 +158,6 @@
             this.menuConsultas.Text = "Consultas";
             this.menuConsultas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
-            // menuConfiguracion
-            // 
-            this.menuConfiguracion.AutoSize = false;
-            this.menuConfiguracion.IconChar = FontAwesome.Sharp.IconChar.Cog;
-            this.menuConfiguracion.IconColor = System.Drawing.Color.Black;
-            this.menuConfiguracion.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.menuConfiguracion.IconSize = 50;
-            this.menuConfiguracion.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menuConfiguracion.Name = "menuConfiguracion";
-            this.menuConfiguracion.Size = new System.Drawing.Size(100, 69);
-            this.menuConfiguracion.Text = "Configuración";
-            this.menuConfiguracion.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
             // menuTitle
             // 
             this.menuTitle.AutoSize = false;
@@ -265,7 +250,6 @@
         private FontAwesome.Sharp.IconMenuItem menuArmamentos;
         private FontAwesome.Sharp.IconMenuItem menuEspecies;
         private FontAwesome.Sharp.IconMenuItem menuConsultas;
-        private FontAwesome.Sharp.IconMenuItem menuConfiguracion;
         private MenuStrip menuTitle;
         private Label label1;
         private Panel contenedor;

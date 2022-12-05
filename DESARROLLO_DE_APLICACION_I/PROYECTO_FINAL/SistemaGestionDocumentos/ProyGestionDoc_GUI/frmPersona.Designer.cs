@@ -31,6 +31,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dtpEdadPersona = new System.Windows.Forms.DateTimePicker();
             this.btnAbrirPcb = new FontAwesome.Sharp.IconButton();
             this.pcbImagenPersona = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -50,7 +51,6 @@
             this.label8 = new System.Windows.Forms.Label();
             this.txtDireccPersona = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtEdadPersona = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNomPersona = new System.Windows.Forms.TextBox();
@@ -91,6 +91,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.dtpEdadPersona);
             this.panel1.Controls.Add(this.btnAbrirPcb);
             this.panel1.Controls.Add(this.pcbImagenPersona);
             this.panel1.Controls.Add(this.label11);
@@ -110,7 +111,6 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.txtDireccPersona);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.txtEdadPersona);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.txtNomPersona);
@@ -123,6 +123,13 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(288, 808);
             this.panel1.TabIndex = 51;
+            // 
+            // dtpEdadPersona
+            // 
+            this.dtpEdadPersona.Location = new System.Drawing.Point(30, 259);
+            this.dtpEdadPersona.Name = "dtpEdadPersona";
+            this.dtpEdadPersona.Size = new System.Drawing.Size(230, 23);
+            this.dtpEdadPersona.TabIndex = 5;
             // 
             // btnAbrirPcb
             // 
@@ -169,7 +176,7 @@
             this.cboNacPersona.Location = new System.Drawing.Point(29, 435);
             this.cboNacPersona.Name = "cboNacPersona";
             this.cboNacPersona.Size = new System.Drawing.Size(229, 23);
-            this.cboNacPersona.TabIndex = 79;
+            this.cboNacPersona.TabIndex = 9;
             // 
             // label10
             // 
@@ -188,7 +195,8 @@
             this.cboTipoPersona.Location = new System.Drawing.Point(29, 390);
             this.cboTipoPersona.Name = "cboTipoPersona";
             this.cboTipoPersona.Size = new System.Drawing.Size(229, 23);
-            this.cboTipoPersona.TabIndex = 77;
+            this.cboTipoPersona.TabIndex = 8;
+            this.cboTipoPersona.TextChanged += new System.EventHandler(this.cboTipoPersona_TextChanged);
             // 
             // label7
             // 
@@ -207,7 +215,7 @@
             this.cboGeneroPersona.Location = new System.Drawing.Point(30, 347);
             this.cboGeneroPersona.Name = "cboGeneroPersona";
             this.cboGeneroPersona.Size = new System.Drawing.Size(229, 23);
-            this.cboGeneroPersona.TabIndex = 75;
+            this.cboGeneroPersona.TabIndex = 7;
             // 
             // label6
             // 
@@ -224,7 +232,7 @@
             this.txtNroDocPersona.Location = new System.Drawing.Point(30, 128);
             this.txtNroDocPersona.Name = "txtNroDocPersona";
             this.txtNroDocPersona.Size = new System.Drawing.Size(229, 23);
-            this.txtNroDocPersona.TabIndex = 73;
+            this.txtNroDocPersona.TabIndex = 2;
             // 
             // label9
             // 
@@ -241,7 +249,7 @@
             this.txtApePersona.Location = new System.Drawing.Point(31, 218);
             this.txtApePersona.Name = "txtApePersona";
             this.txtApePersona.Size = new System.Drawing.Size(229, 23);
-            this.txtApePersona.TabIndex = 71;
+            this.txtApePersona.TabIndex = 4;
             // 
             // btnEliminar
             // 
@@ -304,7 +312,7 @@
             this.cboEstadoPersona.Location = new System.Drawing.Point(31, 479);
             this.cboEstadoPersona.Name = "cboEstadoPersona";
             this.cboEstadoPersona.Size = new System.Drawing.Size(229, 23);
-            this.cboEstadoPersona.TabIndex = 67;
+            this.cboEstadoPersona.TabIndex = 10;
             // 
             // label8
             // 
@@ -321,7 +329,7 @@
             this.txtDireccPersona.Location = new System.Drawing.Point(30, 303);
             this.txtDireccPersona.Name = "txtDireccPersona";
             this.txtDireccPersona.Size = new System.Drawing.Size(229, 23);
-            this.txtDireccPersona.TabIndex = 61;
+            this.txtDireccPersona.TabIndex = 6;
             // 
             // label5
             // 
@@ -333,22 +341,15 @@
             this.label5.TabIndex = 60;
             this.label5.Text = "Dirección domicilio";
             // 
-            // txtEdadPersona
-            // 
-            this.txtEdadPersona.Location = new System.Drawing.Point(30, 260);
-            this.txtEdadPersona.Name = "txtEdadPersona";
-            this.txtEdadPersona.Size = new System.Drawing.Size(229, 23);
-            this.txtEdadPersona.TabIndex = 59;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(30, 242);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(33, 15);
+            this.label3.Size = new System.Drawing.Size(119, 15);
             this.label3.TabIndex = 58;
-            this.label3.Text = "Edad";
+            this.label3.Text = "Fecha de Nacimiento";
             // 
             // label2
             // 
@@ -365,7 +366,7 @@
             this.txtNomPersona.Location = new System.Drawing.Point(30, 172);
             this.txtNomPersona.Name = "txtNomPersona";
             this.txtNomPersona.Size = new System.Drawing.Size(229, 23);
-            this.txtNomPersona.TabIndex = 55;
+            this.txtNomPersona.TabIndex = 3;
             // 
             // label1
             // 
@@ -384,7 +385,7 @@
             this.cboTipoDocPersona.Location = new System.Drawing.Point(31, 76);
             this.cboTipoDocPersona.Name = "cboTipoDocPersona";
             this.cboTipoDocPersona.Size = new System.Drawing.Size(229, 23);
-            this.cboTipoDocPersona.TabIndex = 53;
+            this.cboTipoDocPersona.TabIndex = 1;
             // 
             // label4
             // 
@@ -574,7 +575,7 @@
             // 
             // Edad
             // 
-            this.Edad.DataPropertyName = "Edad";
+            this.Edad.DataPropertyName = "Edad_per";
             this.Edad.HeaderText = "Edad";
             this.Edad.Name = "Edad";
             this.Edad.ReadOnly = true;
@@ -699,9 +700,7 @@
         private FontAwesome.Sharp.IconButton btnRegistrar;
         private ComboBox cboEstadoPersona;
         private Label label8;
-        private TextBox txtDireccPersona;
         private Label label5;
-        private TextBox txtEdadPersona;
         private Label label3;
         private Label label2;
         private TextBox txtNomPersona;
@@ -728,6 +727,8 @@
         private Label label15;
         private Label label14;
         private DataGridView dtgDatos;
+        private TextBox txtDireccPersona;
+        private DateTimePicker dtpEdadPersona;
         private DataGridViewButtonColumn btnSeleccionar;
         private DataGridViewImageColumn Foto_per;
         private DataGridViewTextBoxColumn Nro_doc;
