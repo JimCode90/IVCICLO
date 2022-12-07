@@ -1,0 +1,9 @@
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_ADO\bin\Debug\ProyGestionDoc_ADO.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_ADO\bin\Debug\ProyGestionDoc_ADO.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_ADO\bin\Debug\ProyGestionDoc_BE.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_ADO\bin\Debug\ProyGestionDoc_BE.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_ADO\obj\Debug\ProyGestionDoc_ADO.csproj.AssemblyReference.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_ADO\obj\Debug\ProyGestionDoc_ADO.csproj.CoreCompileInputs.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_ADO\obj\Debug\ProyGestionDoc_ADO.csproj.CopyComplete
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_ADO\obj\Debug\ProyGestionDoc_ADO.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_ADO\obj\Debug\ProyGestionDoc_ADO.pdb

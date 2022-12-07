@@ -65,7 +65,8 @@ namespace DemoWEB_Sem10.DemoFileUpLoad
                     Response.AddHeader("content-disposition", string.Format("attachment;filename={0}", NomArchivo));
                     Response.ContentType = "application/octet-stream";
 
-                    Response.WriteFile(Server.MapPath(Path.Combine("~/Documentos", NomArchivo)));
+                    //Response.WriteFile(Server.MapPath(Path.Combine("~/Documentos", NomArchivo)));
+                    Response.WriteFile(Server.MapPath("/") + @"Documentos\" + NomArchivo);
                     Response.End();
 
 

@@ -70,6 +70,9 @@
     <Content Include="CSS\DemoCSS.css" />
     <Content Include="DemoFileUpLoad\TestDescargar.aspx" />
     <Content Include="DemoFileUpLoad\TestFileUpload.aspx" />
+    <Content Include="DemoValidaciones\TestCustomValidator.aspx" />
+    <Content Include="DemoValidaciones\TestRangeValidator.aspx" />
+    <Content Include="DemoValidaciones\TestRequiredFieldValidator.aspx" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
     <Content Include="Images\accent.png" />
@@ -148,6 +151,27 @@
     </Compile>
     <Compile Include="DemoMaster.Master.designer.cs">
       <DependentUpon>DemoMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="DemoValidaciones\TestCustomValidator.aspx.cs">
+      <DependentUpon>TestCustomValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoValidaciones\TestCustomValidator.aspx.designer.cs">
+      <DependentUpon>TestCustomValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemoValidaciones\TestRangeValidator.aspx.cs">
+      <DependentUpon>TestRangeValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoValidaciones\TestRangeValidator.aspx.designer.cs">
+      <DependentUpon>TestRangeValidator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemoValidaciones\TestRequiredFieldValidator.aspx.cs">
+      <DependentUpon>TestRequiredFieldValidator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoValidaciones\TestRequiredFieldValidator.aspx.designer.cs">
+      <DependentUpon>TestRequiredFieldValidator.aspx</DependentUpon>
     </Compile>
     <Compile Include="PasandoDatos\Destino1.aspx.cs">
       <DependentUpon>Destino1.aspx</DependentUpon>
