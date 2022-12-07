@@ -40,6 +40,62 @@ namespace ProyGestionDoc_ADO
             }
         }
 
+        public UsuarioBE ConsultarUsuario(String strCodigo)
+        {
+
+            try
+            {
+                UsuarioBE objUsuarioBE = new UsuarioBE();
+                //Codifique
+                cnx.ConnectionString = MiConexion.GetCnx();
+                cmd.Connection = cnx;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_ConsultarUsuario";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@nroCip", strCodigo);
+
+                //Abrir la conexion y ejecutamos...
+                cnx.Open();
+                dtr = cmd.ExecuteReader();
+
+
+                if (dtr.HasRows == true)
+                {
+                    dtr.Read();
+                    objUsuarioBE.Cip_usu = dtr["Cip_usu"].ToString();
+                    objUsuarioBE.Pass_usu = dtr["Pass_usu"].ToString();
+                    objUsuarioBE.Dni_usu = dtr["Dni_usu"].ToString();
+                    objUsuarioBE.Nom_usu = dtr["Nom_usu"].ToString();
+                    objUsuarioBE.Ape_usu = dtr["Ape_usu"].ToString();
+                    objUsuarioBE.Email_usu = dtr["Email_usu"].ToString();
+                    objUsuarioBE.Tel_usu = dtr["Tel_usu"].ToString();
+                    objUsuarioBE.Est_usu = Convert.ToInt16(dtr["Est_usu"]);
+                    objUsuarioBE.Rol_usu = Convert.ToInt16(dtr["Rol_usu"]);
+                    objUsuarioBE.Id_Gra = Convert.ToInt16(dtr["Id_Gra"]);
+                    objUsuarioBE.Id_Uni = Convert.ToInt16(dtr["Id_Uni"]);
+                    
+                }
+
+                return objUsuarioBE;
+
+
+
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                if (cnx.State == ConnectionState.Open)
+                {
+                    cnx.Close();
+                }
+
+            }
+
+        }
+
 
         public Boolean InsertarUsuario(UsuarioBE objUsuarioBE)
         {
@@ -52,6 +108,7 @@ namespace ProyGestionDoc_ADO
                 cmd.CommandText = "usp_InsertarUsuario";
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@nroCip", objUsuarioBE.Cip_usu);
+                cmd.Parameters.AddWithValue("@Password", objUsuarioBE.Pass_usu);
                 cmd.Parameters.AddWithValue("@nroDni", objUsuarioBE.Dni_usu);
                 cmd.Parameters.AddWithValue("@nombres", objUsuarioBE.Nom_usu);
                 cmd.Parameters.AddWithValue("@apellidos", objUsuarioBE.Ape_usu);
@@ -98,6 +155,7 @@ namespace ProyGestionDoc_ADO
                 cmd.CommandText = "usp_ActualizarUsuario";
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@nroCip", objUsuarioBE.Cip_usu);
+                cmd.Parameters.AddWithValue("@Password", objUsuarioBE.Pass_usu);
                 cmd.Parameters.AddWithValue("@nroDni", objUsuarioBE.Dni_usu);
                 cmd.Parameters.AddWithValue("@nombres", objUsuarioBE.Nom_usu);
                 cmd.Parameters.AddWithValue("@apellidos", objUsuarioBE.Ape_usu);
@@ -129,6 +187,43 @@ namespace ProyGestionDoc_ADO
                 }
 
             }
+
+        }
+
+        public Boolean EliminarUsuario(String strCodigo)
+        {
+
+
+            try
+            {
+                //Codifique
+                cnx.ConnectionString = MiConexion.GetCnx();
+                cmd.Connection = cnx;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_EliminarUsuario";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@nroCip", strCodigo);
+
+                // Abrimos la conexion y la ejecutamos
+                cnx.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+
+            }
+            catch (SqlException x)
+            {
+                throw new Exception(x.Message);
+                return false;
+            }
+            finally
+            {
+                if (cnx.State == ConnectionState.Open)
+                {
+                    cnx.Close();
+                }
+
+            }
+
 
         }
 

@@ -46,6 +46,58 @@ namespace ProyGestionDoc_ADO
             }
         }
 
+        public VehiculoBE ConsultarVehiculo(Int16 strCodigo)
+        {
+
+            try
+            {
+                VehiculoBE objVehiucloBE = new VehiculoBE();
+                //Codifique
+                cnx.ConnectionString = MiConexion.GetCnx();
+                cmd.Connection = cnx;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_ConsultarVehiculo";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@idVehiculo", strCodigo);
+
+                //Abrir la conexion y ejecutamos...
+                cnx.Open();
+                dtr = cmd.ExecuteReader();
+
+
+                if (dtr.HasRows == true)
+                {
+                    dtr.Read();
+                    objVehiucloBE.Id_veh = Convert.ToInt16(dtr["Id_veh"]);
+                    objVehiucloBE.Mod_veh = dtr["Mod_veh"].ToString();
+                    objVehiucloBE.Nro_pla = dtr["Nro_pla"].ToString();
+                    objVehiucloBE.Color = dtr["Color"].ToString();
+                    objVehiucloBE.Est_veh = Convert.ToInt16(dtr["Est_veh"]);
+                    objVehiucloBE.Id_Mar_veh = Convert.ToInt16(dtr["Id_Mar_veh"]);
+                    objVehiucloBE.Foto_veh = (Byte[])(dtr["Foto"]);
+
+                }
+
+                return objVehiucloBE;
+
+
+
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                if (cnx.State == ConnectionState.Open)
+                {
+                    cnx.Close();
+                }
+
+            }
+
+        }
+
         public Boolean InsertarVehiculo(VehiculoBE objVehiculoBE)
         {
             try
@@ -126,6 +178,44 @@ namespace ProyGestionDoc_ADO
                 }
 
             }
+
+        }
+
+
+        public Boolean EliminarVehiculo(Int16 strCodigo)
+        {
+
+
+            try
+            {
+                //Codifique
+                cnx.ConnectionString = MiConexion.GetCnx();
+                cmd.Connection = cnx;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_EliminarVehiculo";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@idVehiculo", strCodigo);
+
+                // Abrimos la conexion y la ejecutamos
+                cnx.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+
+            }
+            catch (SqlException x)
+            {
+                throw new Exception(x.Message);
+                return false;
+            }
+            finally
+            {
+                if (cnx.State == ConnectionState.Open)
+                {
+                    cnx.Close();
+                }
+
+            }
+
 
         }
 

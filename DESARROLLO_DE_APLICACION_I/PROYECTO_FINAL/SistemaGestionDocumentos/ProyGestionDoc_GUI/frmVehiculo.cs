@@ -86,6 +86,19 @@ namespace ProyGestionDoc_GUI
                 cboEstado.ValueMember = "Valor";
                 cboEstado.SelectedIndex = 0;
 
+                //Cargamos los combos para el filtro
+                foreach (DataGridViewColumn columna in dtgDatos.Columns)
+                {
+                    if (columna.Visible == true && columna.Name != "btnSeleccionar" && columna.Name != "Foto_veh")
+                    {
+                        cboBusqueda.Items.Add(new OpcionCombo() { Valor = columna.Name, Texto = columna.HeaderText });
+                    }
+                }
+
+                cboBusqueda.SelectedIndex = 0;
+                cboBusqueda.DisplayMember = "Texto";
+                cboBusqueda.ValueMember = "Valor";
+
                 //Cargamos los datos al DataGridView
                 dtgDatos.AutoGenerateColumns = false;
                 CargarDatos("");
@@ -99,8 +112,16 @@ namespace ProyGestionDoc_GUI
 
         private void CargarDatos(String strFiltro)
         {
-            dtv = new DataView(objVehiculoBL.ListarVehiculo());
-            dtgDatos.DataSource = dtv;
+            try
+            {
+                dtv = new DataView(objVehiculoBL.ListarVehiculo());
+                dtgDatos.DataSource = dtv;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
         }
 
         private void dtgDatos_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
@@ -213,44 +234,53 @@ namespace ProyGestionDoc_GUI
 
         private void dtgDatos_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dtgDatos.Columns[e.ColumnIndex].Name == "btnSeleccionar") {
+            try
+            {
+                if (dtgDatos.Columns[e.ColumnIndex].Name == "btnSeleccionar") {
                 int indice = e.RowIndex;
                 if (indice >= 0)
                 {
-                    cboMarca.SelectedIndex = Convert.ToInt16(dtgDatos.Rows[indice].Cells["Id_Mar_veh"].Value.ToString());
 
-                    foreach (OpcionCombo oc in cboEstado.Items)
-                    {
-                        if (Convert.ToInt16(oc.Valor) == Convert.ToInt16(dtgDatos.Rows[indice].Cells["Est_veh"].Value))
+                        objVehiculoBE = objVehiculoBL.ConsultarVehiculo(Convert.ToInt16(dtgDatos.Rows[indice].Cells["Id_veh"].Value.ToString()));
+
+                        cboMarca.SelectedIndex = Convert.ToInt16(objVehiculoBE.Id_Mar_veh);
+
+                        foreach (OpcionCombo oc in cboEstado.Items)
                         {
-                            int indice_combo = cboEstado.Items.IndexOf(oc);
-                            cboEstado.SelectedIndex = indice_combo;
+                            if (Convert.ToInt16(oc.Valor) == Convert.ToInt16(objVehiculoBE.Est_veh))
+                            {
+                                int indice_combo = cboEstado.Items.IndexOf(oc);
+                                cboEstado.SelectedIndex = indice_combo;
+                            }
                         }
-                    }
 
-                    txtModelo.Text = dtgDatos.Rows[indice].Cells["Mod_veh"].Value.ToString();
-                    txtPlaca.Text = dtgDatos.Rows[indice].Cells["Nro_pla"].Value.ToString();
-                    txtColor.Text = dtgDatos.Rows[indice].Cells["Color"].Value.ToString();
-                    txtIdVeh.Text = dtgDatos.Rows[indice].Cells["Id_veh"].Value.ToString();
+                        txtModelo.Text = objVehiculoBE.Mod_veh.ToString();
+                        txtPlaca.Text = objVehiculoBE.Nro_pla.ToString();
+                        txtColor.Text = objVehiculoBE.Color.ToString();
+                        txtIdVeh.Text = objVehiculoBE.Id_veh.ToString();
 
-                    // Si no tiene foto....
-                    if (dtgDatos.Rows[indice].Cells["Foto_veh"].Value.ToString().Length == 0)
-                    {
-                        pcbImagen.Image = null;
+                        // Si no tiene foto....
+                        if (objVehiculoBE.Foto_veh.Length == 0)
+                        {
+                            pcbImagen.Image = null;
 
-                    }
-                    else // Pero si tiene foto
-                    {
+                        }
+                        else // Pero si tiene foto
+                        {
+                            MemoryStream fotoStream = new MemoryStream(objVehiculoBE.Foto_veh);
+                            pcbImagen.Image = Image.FromStream(fotoStream);
+                            // Guardamos la foto original , por si no se hace cambios...
+                            FotoOriginal = objVehiculoBE.Foto_veh;
+                        }
 
-                        MemoryStream fotoStream = new MemoryStream((byte[])dtgDatos.Rows[indice].Cells["Foto_veh"].Value);
-                        pcbImagen.Image = Image.FromStream(fotoStream);
-
-                        // Guardamos la foto original , por si no se hace cambios...
-                        FotoOriginal = (byte[])dtgDatos.Rows[indice].Cells["Foto_veh"].Value;
                     }
 
                 }
+            }
+            catch (Exception ex)
+            {
 
+                MessageBox.Show("Error: " + ex.Message);
             }
         }
 
@@ -268,7 +298,7 @@ namespace ProyGestionDoc_GUI
                 objVehiculoBE.Nro_pla = txtPlaca.Text;
                 objVehiculoBE.Color = txtColor.Text;
                 objVehiculoBE.Est_veh = Convert.ToInt16(((OpcionCombo)cboEstado.SelectedItem).Valor.ToString());
-                objVehiculoBE.Foto_veh = File.ReadAllBytes(openFileDialog1.FileName);
+            
 
                 if (blnCambio == true)
                 {
@@ -294,6 +324,87 @@ namespace ProyGestionDoc_GUI
                 }
 
 
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                DialogResult vrpta;
+                vrpta = MessageBox.Show("¿Desea eliminar el vehiculo?", "Mensaje", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if(vrpta == DialogResult.Yes)
+                {
+                   
+                    if (objVehiculoBL.EliminarVehiculo(Convert.ToInt16(txtIdVeh.Text)) == true)
+                    {
+
+                        limipiarCampos();
+                        CargarDatos("");
+                       
+                    }
+                    else
+                    {
+                        throw new Exception("No se elimino el registro, contacto con IT");
+                    }
+                }
+                else
+                {
+                    this.Close();
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                String columnaFiltro = ((OpcionCombo)cboBusqueda.SelectedItem).Valor.ToString();
+                dtgDatos.CurrentCell = null;
+                if (dtgDatos.Rows.Count > 0)
+                {
+                    foreach (DataGridViewRow row in dtgDatos.Rows)
+                    {
+                        if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(txtBusqueda.Text.Trim().ToUpper()))
+                        {
+                            row.Visible = true;
+                        }
+                        else
+                        {
+                            row.Visible = false;
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                txtBusqueda.Text = "";
+                foreach (DataGridViewRow row in dtgDatos.Rows)
+                {
+                    row.Visible = true;
+                }
             }
             catch (Exception ex)
             {

@@ -15,28 +15,35 @@ namespace ProyGestionDoc_GUI
         }
 
         private void AbrirFormulario(IconMenuItem menu, Form formulario) {
-
-            if (menuActivo != null) { 
-                menuActivo.BackColor = Color.White;
-            }
-
-            menu.BackColor = Color.Silver;
-            menuActivo = menu;
-
-            if (formularioActivo != null)
+            try
             {
-                formularioActivo.Close();
+                if (menuActivo != null) { 
+                menuActivo.BackColor = Color.White;
+                }
+
+                menu.BackColor = Color.Silver;
+                menuActivo = menu;
+
+                if (formularioActivo != null)
+                {
+                    formularioActivo.Close();
+                }
+
+                formularioActivo = formulario;
+                formulario.TopLevel = false;
+                formulario.FormBorderStyle = FormBorderStyle.None;
+                formulario.Dock = DockStyle.Fill;
+                formulario.BackColor = Color.DarkGreen;
+
+
+                contenedor.Controls.Add(formulario);
+                formulario.Show();
             }
+            catch (Exception ex)
+            {
 
-            formularioActivo = formulario;
-            formulario.TopLevel = false;
-            formulario.FormBorderStyle = FormBorderStyle.None;
-            formulario.Dock = DockStyle.Fill;
-            formulario.BackColor = Color.DarkGreen;
-
-
-            contenedor.Controls.Add(formulario);
-            formulario.Show();
+                MessageBox.Show("Error: " + ex.Message);
+            }
 
         }
 
@@ -69,6 +76,11 @@ namespace ProyGestionDoc_GUI
                     MessageBox.Show("Test"); // Some operation
                 }
             }
+        }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+            this.lblUsuario.Text = clsCredenciales.Usuario;
         }
     }
 }
