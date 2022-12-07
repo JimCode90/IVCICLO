@@ -35,6 +35,8 @@
         <item name="windowActionBarOverlay">true</item>
     </style>
 
-    <style name="Theme.Sistema1141.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.Sistema1141.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Sistema1141.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

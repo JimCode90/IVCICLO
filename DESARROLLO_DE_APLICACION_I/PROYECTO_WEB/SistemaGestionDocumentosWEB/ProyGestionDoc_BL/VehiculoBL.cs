@@ -24,6 +24,12 @@ namespace ProyGestionDoc_BL
             return objVehiculoADO.ConsultarVehiculo(strCodigo);
         }
 
+        public VehiculoBE ConsultarVehiculoPlaca(String strCodigo)
+        {
+            return objVehiculoADO.ConsultarVehiculoPlaca(strCodigo);
+        }
+
+
         public Boolean InsertarVehiculo(VehiculoBE objVehiculoBE)
         {
             return objVehiculoADO.InsertarVehiculo(objVehiculoBE);

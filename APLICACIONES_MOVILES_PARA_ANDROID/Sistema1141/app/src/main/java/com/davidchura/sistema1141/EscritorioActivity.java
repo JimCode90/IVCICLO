@@ -26,6 +26,7 @@ public class EscritorioActivity extends AppCompatActivity implements View.OnClic
         binding.btnEmpleados.setOnClickListener(this);
         binding.btnCerrarSesion.setOnClickListener(this);
         binding.btnSalir.setOnClickListener(this);
+        binding.btnCorporacion.setOnClickListener(this);
 
     }
 
@@ -40,6 +41,9 @@ public class EscritorioActivity extends AppCompatActivity implements View.OnClic
                 break;
             case R.id.btnCerrarSesion:
                 cerrarSesion();
+                break;
+            case R.id.btnCorporacion:
+                startActivity(new Intent(this, CorporacionActivity.class));
                 break;
             case R.id.btnSalir:
                 finish();

@@ -38,5 +38,10 @@ namespace ProyGestionDoc_BL
         {
             return objPersonaADO.EliminarPersona(strCodigo);
         }
+
+        public DataTable ListarPersonasAnual()
+        {
+            return objPersonaADO.ListarPersonasAnual();
+        }
     }
 }

@@ -98,6 +98,60 @@ namespace ProyGestionDoc_ADO
 
         }
 
+        public VehiculoBE ConsultarVehiculoPlaca(String strCodigo)
+        {
+
+            try
+            {
+                VehiculoBE objVehiucloBE = new VehiculoBE();
+                //Codifique
+                cnx.ConnectionString = MiConexion.GetCnx();
+                cmd.Connection = cnx;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_ConsultarVehiculoPlaca";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@nroPlaca", strCodigo);
+
+                //Abrir la conexion y ejecutamos...
+                cnx.Open();
+                dtr = cmd.ExecuteReader();
+
+
+                if (dtr.HasRows == true)
+                {
+                    dtr.Read();
+                    objVehiucloBE.Id_veh = Convert.ToInt16(dtr["Id_veh"]);
+                    objVehiucloBE.Mod_veh = dtr["Mod_veh"].ToString();
+                    objVehiucloBE.Nro_pla = dtr["Nro_pla"].ToString();
+                    objVehiucloBE.Color = dtr["Color"].ToString();
+                    objVehiucloBE.Est_veh = Convert.ToInt16(dtr["Est_veh"]);
+                    objVehiucloBE.Estado = dtr["Estado"].ToString();
+                    objVehiucloBE.Id_Mar_veh = Convert.ToInt16(dtr["Id_Mar_veh"]);
+                    objVehiucloBE.Foto_veh = (Byte[])(dtr["Foto_veh"]);
+                    objVehiucloBE.Opc_Mar_veh = dtr["Opc_Mar_veh"].ToString();
+                  
+                }
+
+                return objVehiucloBE;
+
+
+
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                if (cnx.State == ConnectionState.Open)
+                {
+                    cnx.Close();
+                }
+
+            }
+
+        }
+
         public Boolean InsertarVehiculo(VehiculoBE objVehiculoBE)
         {
             try

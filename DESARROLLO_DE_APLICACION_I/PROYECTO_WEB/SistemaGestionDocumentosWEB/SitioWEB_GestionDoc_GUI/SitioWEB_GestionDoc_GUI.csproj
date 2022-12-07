@@ -43,7 +43,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -67,6 +71,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Consultas\Consultas.aspx" />
+    <Content Include="Consultas\WebConsultaGraficoPersona.aspx" />
+    <Content Include="Consultas\WebConsultaPersona.aspx" />
+    <Content Include="Consultas\WebConsultaVehiculo.aspx" />
     <Content Include="CSS\DemoCSS.css" />
     <Content Include="Images\1.jpg" />
     <Content Include="Images\2.jpg" />
@@ -129,9 +137,45 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Consultas\Consultas.aspx.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\Consultas.aspx.designer.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\WebConsultaGraficoPersona.aspx.cs">
+      <DependentUpon>WebConsultaGraficoPersona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\WebConsultaGraficoPersona.aspx.designer.cs">
+      <DependentUpon>WebConsultaGraficoPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\WebConsultaPersona.aspx.cs">
+      <DependentUpon>WebConsultaPersona.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\WebConsultaPersona.aspx.designer.cs">
+      <DependentUpon>WebConsultaPersona.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas\WebConsultaVehiculo.aspx.cs">
+      <DependentUpon>WebConsultaVehiculo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Consultas\WebConsultaVehiculo.aspx.designer.cs">
+      <DependentUpon>WebConsultaVehiculo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemoMaster.Master.cs">
+      <DependentUpon>DemoMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoMaster.Master.designer.cs">
+      <DependentUpon>DemoMaster.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DemoMaster.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -76,7 +76,7 @@ namespace ProyGestionDoc_ADO
                     objPersonaBE.Gen_per = Convert.ToInt16(dtr["Gen_per"]);
                     objPersonaBE.Tip_per = Convert.ToInt16(dtr["Tip_per"]);
                     objPersonaBE.Id_Nac = Convert.ToInt16(dtr["Id_Nac"]);
-                    objPersonaBE.Foto = (Byte[]) (dtr["Foto"]);
+                    objPersonaBE.Foto = (Byte[]) (dtr["Foto_per"]);
                     objPersonaBE.Usu_reg = dtr["Usu_reg"].ToString();
 
                 }

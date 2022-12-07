@@ -76,7 +76,18 @@ namespace ProyGestionDoc_ADO
                     objPersonaBE.Gen_per = Convert.ToInt16(dtr["Gen_per"]);
                     objPersonaBE.Tip_per = Convert.ToInt16(dtr["Tip_per"]);
                     objPersonaBE.Id_Nac = Convert.ToInt16(dtr["Id_Nac"]);
-                    objPersonaBE.Foto = (Byte[]) (dtr["Foto"]);
+                    objPersonaBE.Foto = (Byte[]) (dtr["Foto_per"]);
+                    objPersonaBE.Edad_per = Convert.ToInt16(dtr["Edad_per"].ToString());
+                    objPersonaBE.Opc_Nac = dtr["Opc_Nac"].ToString();
+                    objPersonaBE.Estado = dtr["Estado"].ToString();
+                    objPersonaBE.Doc_Identidad = dtr["Doc_Identidad"].ToString();
+                    objPersonaBE.Genero = dtr["Genero"].ToString();
+                    objPersonaBE.Tipo_Persona = dtr["Tipo_Persona"].ToString();
+
+
+
+
+
                     objPersonaBE.Usu_reg = dtr["Usu_reg"].ToString();
 
                 }
@@ -227,6 +238,35 @@ namespace ProyGestionDoc_ADO
             }
 
 
+        }
+
+        public DataTable ListarPersonasAnual() {
+            try
+            {
+                DataSet dts = new DataSet();
+                cnx.ConnectionString = MiConexion.GetCnx();
+                cmd.Connection= cnx;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_PersonasPorAño";
+                cmd.Parameters.Clear();
+                SqlDataAdapter ada = new SqlDataAdapter(cmd);
+                ada.Fill(dts, "PersonasAnual");
+                return dts.Tables["PersonasAnual"];
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+                //return false;
+            }
+            finally
+            {
+                if (cnx.State == ConnectionState.Open)
+                {
+                    cnx.Close();
+                }
+
+            }
         }
     }
 }
