@@ -129,5 +129,39 @@ namespace ProyGestionDoc_ADO
             }
 
         }
+
+        public Boolean EliminarEspecie(Int16 strCodigo)
+        {
+            try
+            {
+                //Codifique
+                cnx.ConnectionString = MiConexion.GetCnx();
+                cmd.Connection = cnx;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_EliminarEspecies";
+                cmd.Parameters.Clear();
+                cmd.Parameters.AddWithValue("@idEspecie", strCodigo);
+
+                // Abrimos la conexion y la ejecutamos
+                cnx.Open();
+                cmd.ExecuteNonQuery();
+                return true;
+
+            }
+            catch (SqlException x)
+            {
+                throw new Exception(x.Message);
+                return false;
+            }
+            finally
+            {
+                if (cnx.State == ConnectionState.Open)
+                {
+                    cnx.Close();
+                }
+
+            }
+
+        }
     }
 }

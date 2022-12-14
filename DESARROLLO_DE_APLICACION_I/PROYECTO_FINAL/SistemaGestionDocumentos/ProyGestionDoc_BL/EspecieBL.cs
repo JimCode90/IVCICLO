@@ -28,5 +28,10 @@ namespace ProyGestionDoc_BL
          {
              return objEspecieADO.ActualizarEspecie(objEspecieBE);
          }
+
+        public Boolean EliminarEspecie(Int16 strCodigo)
+        {
+            return objEspecieADO.EliminarEspecie(strCodigo);
+        }
     }
 }

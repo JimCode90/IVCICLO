@@ -1,0 +1,44 @@
+<%--AGREGAR FINAL: Se agrega este script java con el manejo de la expiracion de la sesion....--%>
+    <%--Impide emplear el boton Regresar en el navegador--%>
+    <script language="javascript" type="text/javascript">
+        javascript:window.history.forward(1);
+         </script>
+      <script language="javascript" type="text/javascript">
+      var sessionTimeoutWarning =
+  "<%= System.Configuration .ConfigurationManager .AppSettings["AdvertenciaSession"].ToString()%> "
+      var sessionTimeout = "<%= Session.Timeout %>";
+      var timeOnPageLoad = new Date();
+
+      //Para la advertencia ....
+      setTimeout('SessionWarning()', parseInt(sessionTimeoutWarning) * 60 * 1000);
+      //Para redireccionar a otra pagina
+      setTimeout('RedirectToWelcomePage()',parseInt(sessionTimeout) * 60 * 1000);
+
+      //Funcion de advertencia....
+      function SessionWarning() {
+          //Tiempo antes de expirar
+          var minutesForExpiry =  (parseInt(sessionTimeout) -
+              parseInt(sessionTimeoutWarning));
+          var message = "Tu sesion va a expirar en... " + minutesForExpiry +
+          " minutos. Por favor graba o realiza alguna accion.";
+          alert(message);
+          var currentTime = new Date();
+          //Tiempo de expiracion
+          var timeForExpiry = timeOnPageLoad.setMinutes(timeOnPageLoad.getMinutes()
+              + parseInt(sessionTimeout));
+
+          //Si en caso la hora actual ha superado el tiempo de expiracion
+          if(Date.parse(currentTime) > timeForExpiry)
+          {
+              alert("La sesion ha expirado. Seras redireccionado a la pagina de bienvenida");
+              window.location = "../WebLogin.aspx";
+          }
+      }
+
+      //Funcion para la redireccion a la pagina WebLoginText.aspx....
+      function RedirectToWelcomePage(){
+          alert("La sesion ha expirado. Seras redireccionado a la pagina de bienvenida");
+          window.location = "../WebLogin.aspx";
+      }
+</script>
+     <%--FINAL : Fin del script de la validacion de la sesion.--%>

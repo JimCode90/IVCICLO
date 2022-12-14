@@ -126,6 +126,7 @@
             // 
             // dtpEdadPersona
             // 
+            this.dtpEdadPersona.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpEdadPersona.Location = new System.Drawing.Point(30, 259);
             this.dtpEdadPersona.Name = "dtpEdadPersona";
             this.dtpEdadPersona.Size = new System.Drawing.Size(230, 23);

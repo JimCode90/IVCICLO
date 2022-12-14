@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="ConexionADO.cs" />
+    <Compile Include="EspecieADO.cs" />
     <Compile Include="PersonaADO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TipoEspecieADO.cs" />

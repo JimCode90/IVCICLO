@@ -440,7 +440,7 @@ namespace ProyGestionDoc_GUI
                 }
                 else
                 {
-                    this.Close();
+                    return;
                 }
 
             }

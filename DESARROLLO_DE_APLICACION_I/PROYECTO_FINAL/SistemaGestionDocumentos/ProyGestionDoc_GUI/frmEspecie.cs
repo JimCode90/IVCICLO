@@ -340,5 +340,40 @@ namespace ProyGestionDoc_GUI
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                DialogResult vrpta;
+                vrpta = MessageBox.Show("¿Desea eliminar la especie?", "Mensaje", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (vrpta == DialogResult.Yes)
+                {
+
+                    if (objEspecieBL.EliminarEspecie(Convert.ToInt16(txtIdEspecie.Text)) == true)
+                    {
+
+                        limipiarCampos();
+                        CargarDatos("");
+
+                    }
+                    else
+                    {
+                        throw new Exception("No se elimino el registro, contacto con IT");
+                    }
+                }
+                else
+                {
+                    return;
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
     }
 }
