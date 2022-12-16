@@ -69,10 +69,10 @@ public class MapaActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btnUbi1:
-                cambiarUbicacion(-13.52264,-71.96734, "ubicacion 1");
+                cambiarUbicacion(-12.0672896,-77.0337292, "Ir a Estadio Nacional");
                 break;
             case R.id.btnUbi2:
-                cambiarUbicacion(-3.74912, -73.25383, "ubicacion 2");
+                cambiarUbicacion(-12.1319502, -77.0305149, "Ir a Larcomar");
                 break;
         }
     }

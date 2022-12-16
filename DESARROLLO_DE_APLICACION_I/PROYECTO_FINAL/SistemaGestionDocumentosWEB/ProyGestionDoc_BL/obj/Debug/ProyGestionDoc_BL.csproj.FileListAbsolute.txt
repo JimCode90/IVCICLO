@@ -1,0 +1,11 @@
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\bin\Debug\ProyGestionDoc_BL.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\bin\Debug\ProyGestionDoc_BL.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\bin\Debug\ProyGestionDoc_ADO.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\bin\Debug\ProyGestionDoc_BE.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\bin\Debug\ProyGestionDoc_ADO.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\bin\Debug\ProyGestionDoc_BE.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\obj\Debug\ProyGestionDoc_BL.csproj.AssemblyReference.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\obj\Debug\ProyGestionDoc_BL.csproj.CoreCompileInputs.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\obj\Debug\ProyGestionDoc_BL.csproj.CopyComplete
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\obj\Debug\ProyGestionDoc_BL.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BL\obj\Debug\ProyGestionDoc_BL.pdb

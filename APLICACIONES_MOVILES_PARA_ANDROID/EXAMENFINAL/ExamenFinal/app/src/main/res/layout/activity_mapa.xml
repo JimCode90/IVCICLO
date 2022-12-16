@@ -41,24 +41,27 @@
 
     <Button
         android:id="@+id/btnUbi1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="159dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="159dp"
-        android:text="Ubicación 1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/naranja_app"
+        android:text="Ir a Estadio Nacional"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mapa" />
 
     <Button
         android:id="@+id/btnUbi2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="159dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="159dp"
-        android:text="Ubicación 2"
+        android:layout_marginEnd="20dp"
+        android:text="Ir a Larcomar"
+        android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnUbi1" />

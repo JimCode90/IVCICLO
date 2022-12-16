@@ -14,11 +14,48 @@
       },
       "oauth_client": [
         {
-          "client_id": "682996504549-k7mvpdjggum3j10jdea1jpuhh6i3ue4t.apps.googleusercontent.com",
+          "client_id": "682996504549-eua3h4s5dohlmqh85m9birdppm20luo1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.examenfinal",
-            "certificate_hash": "941477a39f189a055d8b3e76e98c9d59fc912c1b"
+            "certificate_hash": "585ac3e2ded8134d1014c5de93ba5f4acf35406b"
+          }
+        },
+        {
+          "client_id": "682996504549-dv3421onjbb964ihmghtjfsln07r0irn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4VjmFVxJFsq_wLmMd5aVZIGVXI99dFhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682996504549-dv3421onjbb964ihmghtjfsln07r0irn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682996504549:android:cdf25108e45378c826c10c",
+        "android_client_info": {
+          "package_name": "com.jimcode.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682996504549-ohvjsctvc1bkai4jen27mu0tpn2i1t6c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jimcode.myapplication",
+            "certificate_hash": "585ac3e2ded8134d1014c5de93ba5f4acf35406b"
           }
         },
         {

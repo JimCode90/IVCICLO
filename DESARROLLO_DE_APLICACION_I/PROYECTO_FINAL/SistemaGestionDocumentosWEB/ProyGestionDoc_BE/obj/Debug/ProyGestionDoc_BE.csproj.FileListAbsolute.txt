@@ -1,0 +1,6 @@
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BE\bin\Debug\ProyGestionDoc_BE.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BE\bin\Debug\ProyGestionDoc_BE.pdb
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BE\obj\Debug\ProyGestionDoc_BE.csproj.AssemblyReference.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BE\obj\Debug\ProyGestionDoc_BE.csproj.CoreCompileInputs.cache
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BE\obj\Debug\ProyGestionDoc_BE.dll
+D:\ISIL\IVCICLO\DESARROLLO_DE_APLICACION_I\PROYECTO_WEB\SistemaGestionDocumentosWEB\ProyGestionDoc_BE\obj\Debug\ProyGestionDoc_BE.pdb
